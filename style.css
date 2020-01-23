@@ -35,3 +35,28 @@ body{
   from{border-right-color: rgba(0,255,0,.75);}
   to{border-right-color: transparent;}
 }
+
+/* responsive */
+
+@media(max-width: 1200px) {
+.typing {
+font-size: 33px;
+  }
+   @keyframes animated-text{
+    from{width: 0;}
+    to{width: 700px;}
+ }
+}
+
+ @media(max-width: 800px) {
+  .typing {
+   padding: 0 1rem;
+     }
+     p {
+       font-size: 1rem;
+     }
+     @keyframes animated-text{
+      from{width: 0;}
+      to{width: 412px;}
+    }
+   }
