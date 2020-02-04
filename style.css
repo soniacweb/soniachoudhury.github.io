@@ -787,8 +787,6 @@ h2.white-title {
 
 
 
-
-
 @media screen and (max-width: 1040px) {
   .box-four {
     height: 4000px;
@@ -905,7 +903,7 @@ span {
   }
 
   .box-four {
-    height: 6500px;
+    height: 4000px;
 }
 
 }
@@ -942,7 +940,7 @@ and (orientation : portrait) {
   }
 
   .box-three {
-    height: 1450px;
+    height: 3150px;
 
   }
 
@@ -1020,11 +1018,11 @@ and (orientation : portrait) {
 @media screen and (max-width: 600px) {
 
   .box-two {
-    height: 1480px;
+    height: 1580px;
 
   }
   .box-three {
-    height: 3450px;
+    height: 3150px;
 
   }
 
