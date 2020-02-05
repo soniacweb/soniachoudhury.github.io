@@ -291,7 +291,7 @@ body {
 
 
 .skill-outline-box {
-  margin-top: 80px;
+  margin-top: 270px;
   /* background-color: #c1eee4; */
   min-width: 350px;
   max-width: 100%;
@@ -1015,16 +1015,16 @@ and (orientation : portrait) {
   }
 }
 
+
 /* timeline */
 @media screen and (max-width: 600px) {
 
   .box-two {
-    height: 1680px;
-
+    height: 1630px;
   }
+
   .box-three {
     height: 3150px;
-
   }
 
   /* Place the timelime to the left */
