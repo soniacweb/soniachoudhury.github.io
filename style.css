@@ -440,7 +440,7 @@ h2.white-title {
   margin-top: 20px;
 }
 .box-three {
-  height: 2500px;
+  height: 2800px;
   background-color: black;
   overflow: hidden;
 }
@@ -780,7 +780,7 @@ h2.white-title {
 
 @media screen and (max-width: 1070px) {
   .box-three {
-    height: 2500px;
+    height: 3650px;
   }
 }
 
@@ -804,7 +804,7 @@ h2.white-title {
   }
 
   .box-three {
-    height: 3250px;
+    height: 3650px;
   }
 
 
@@ -1020,11 +1020,11 @@ and (orientation : portrait) {
 @media screen and (max-width: 600px) {
 
   .box-two {
-    height: 1630px;
+    height: 3430px;
   }
 
   .box-three {
-    height: 3150px;
+    height: 3650px;
   }
 
   /* Place the timelime to the left */
@@ -1064,6 +1064,10 @@ and (orientation : portrait) {
 
 /* iphone 5 landscape */
 @media screen and (max-width : 568px) {
+
+  .box-four {
+    height: 4050px;
+  }
 
   .projects-info-wrapper {
     padding-top: 50px;
