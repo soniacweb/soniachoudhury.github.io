@@ -404,8 +404,9 @@ h2.white-title {
   min-height: 20px;
 }
 
+/* affects the ga logo on the timeline so commented it out */
 .experience-work-wrapper div img {
-  width: 200px;
+  /* width: 200px; */
 }
 
 .experience-full-wrapper {
@@ -734,7 +735,7 @@ h2.white-title {
 
 }
 
-
+/* iphone  x */
 @media screen and (max-width: 1000px) {
 
   .box-two {
@@ -743,7 +744,8 @@ h2.white-title {
   }
 
   .box-three {
-    height: 3650px;
+    /* height: 3650px; */
+    height: 7900px;
   }
 
 
@@ -801,6 +803,20 @@ span {
 
 @media screen and (max-width: 810px) {
 
+  img.ga-logo {
+  width: 90px;
+  }
+
+  img.capita-logo {
+    width: 90px;
+    margin-right: 10px;
+  }
+
+  img.amazon-logo {
+    width: 90px;
+  }
+
+
     .projects-screen {
       background-image: none;
       margin: 0 auto;
@@ -817,7 +833,7 @@ span {
       justify-content: space-evenly;
       margin: 0 auto;
       flex-wrap: wrap;
-      /* margin-top: 135px; */
+      /* margin-top: 150px; */
   }
     .projects-work-wrapper {
       padding-top: 50px;
@@ -843,7 +859,7 @@ span {
   }
 
   .box-four {
-    height: 4050px;
+    height: 4500px;
 }
 
 h2.white-title {
@@ -905,9 +921,8 @@ and (orientation : portrait) {
   }
 
 
-
   .top-logo-with-parallax {
-    /* background-color: #c1eee4; */
+    background-image: url("images/soniachoudhurylogo.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -916,7 +931,7 @@ and (orientation : portrait) {
     -webkit-background-size: contain;
     min-height: 700px;
     background-attachment: inherit;
-    background-image: url("images/soniachoudhurylogo.gif");
+    
 
   }
 
@@ -931,6 +946,8 @@ and (orientation : portrait) {
     margin-top: 90px;
   }
 }
+
+/* iPhone 6+/6s+/7+/8+ share the same sizes */
 
 /* iphones */
 
@@ -1059,6 +1076,7 @@ div img.projectlogo {
  }  
 }
 
+
 /* iphone 5 portrait */
 @media only screen
 and (min-device-width : 320px)
@@ -1142,4 +1160,27 @@ and (orientation : landscape) { /* STYLES GO HERE */}
         margin-inline-end: 0px;
         /* padding-inline-start: 40px; */
     }
+   }
+
+   /* iphone x  */
+
+   @media only screen 
+   and (width : 375px) 
+   and (height : 812px)
+   and (orientation : portrait)  
+   and (-webkit-device-pixel-ratio : 3) { 
+
+    ul {
+      display: block;
+      list-style-type: disc;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      /* padding-inline-start: 40px; */
+  }
+  
+  .box-three {
+      height: 6550px;
+      }
     }
