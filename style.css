@@ -291,6 +291,37 @@ body {
 
 /* timeline */
 
+img.rhul-logo {
+  width: 100px;
+}
+img.ga-logo {
+  width: 150px;
+  }
+
+img.capita-logo {
+    width: 90px;
+    margin-right: 10px;
+  }
+
+img.amazon-logo {
+    width: 100px;
+  }
+img.dh-logo {
+  width: 100px; 
+  margin-right: 10px;
+}
+img.dh-logo {
+    width: 100px;
+  }
+img.udemy-logo {
+    width: 100px;
+  }
+
+img.fcc-logo {
+    width: 100px;
+  }
+
+
 .timeline {
 width: 78%;
 position: relative;
