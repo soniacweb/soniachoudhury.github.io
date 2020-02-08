@@ -300,11 +300,15 @@ img.ga-logo {
 
 img.capita-logo {
     width: 90px;
-    margin-right: 10px;
+    /* margin-right: 10px; */
+    width: 100px; 
+    margin-bottom: 20px; 
+    margin-left: 10px;
   }
 
 img.amazon-logo {
-    width: 100px;
+    width: 120px; 
+    margin-top: 5px;
   }
 img.dh-logo {
   width: 100px; 
@@ -830,23 +834,56 @@ span {
 
 
 
-/* Smaller screens on laptop and some iphones*/
+/* Smaller screens on laptop and some iphones X*/
 
 @media screen and (max-width: 810px) {
 
   img.ga-logo {
-  width: 90px;
+  width: 100px;
   }
 
   img.capita-logo {
     width: 90px;
-    margin-right: 10px;
+    /* margin-right: 40px; */
+    margin: 0 auto;
   }
 
   img.amazon-logo {
-    width: 90px;
+    width: 100px;
+    margin: 0 auto;
   }
 
+  img.dg-logo {
+    width: 60px;
+  }
+  img.dh-logo {
+    width: 60px;
+  }
+
+  img.udemy-logo {
+    width: 70px;
+  }
+  img.fcc-logo {
+    width: 70px;
+  }
+
+  /* skills box on iphone X */
+
+  .skill-box-right {
+    padding: 30px;
+  }
+  .skill-box-left {
+    padding: 30px;
+  }
+
+  /* software icons on iphone X */
+ul.software-icons {
+  padding-inline-start: 0px;
+}
+
+.box-two {
+height: 2800px;
+}
 
     .projects-screen {
       background-image: none;
@@ -1144,6 +1181,10 @@ and (orientation : landscape) { /* STYLES GO HERE */}
 /* Portrait */
 @media only screen and (min-width: 1024px) and (orientation: portrait) { 
 
+  img.dg-logo {
+    width: 90px;
+  }
+
 .right-about-wrapper {
       width: 455px;
       padding: 20px;
@@ -1173,7 +1214,7 @@ and (orientation : landscape) { /* STYLES GO HERE */}
 }
 
 .box-three {
-  height: 3500px;
+  height: 3680px;
 }
 }
 
