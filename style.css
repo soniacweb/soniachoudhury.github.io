@@ -195,12 +195,12 @@ body {
   margin-top: 24px;
 }
 
-.triangle-icon {
+/* .triangle-icon {
   width: 30px;
   height: 30px;
   margin-top: 40px;
   position: inherit;
-}
+} */
 
 .left-about-wrapper a {
   text-decoration: none;
@@ -230,7 +230,7 @@ body {
 
 
 .skill-outline-box {
-  margin-top: 270px;
+  margin-top: 100px;
   /* background-color: #c1eee4; */
   min-width: 350px;
   max-width: 100%;
@@ -959,7 +959,7 @@ and (orientation : portrait) {
 @media screen and (max-width: 600px) {
 
   .box-two {
-    height: 3430px;
+    height: 2830px;
   }
 
   .box-three {
@@ -1021,11 +1021,45 @@ and (orientation : portrait) {
 
 }
 
+@media only screen 
+    and (max-device-width: 640px), 
+    only screen and (max-device-width: 667px), 
+    only screen and (max-width: 480px)
+{ 
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+div img.projectlogo {
+  display: block;
+  width: 80px; 
+  margin: 0 auto;
+ }  
+}
+
 /* iphone 5 portrait */
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px)
-and (orientation : portrait) { /* STYLES GO HERE */ }
+and (orientation : portrait) { 
+  
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* padding-inline-start: 40px; */
+}
+
+}
 
 /* ipad 4th generation portrait */
 @media only screen
@@ -1037,3 +1071,59 @@ and (orientation : portrait) { /* STYLES GO HERE */ }
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) { /* STYLES GO HERE */}
+
+
+
+/* ipad pro */
+
+/* Portrait */
+@media only screen and (min-width: 1024px) and (orientation: portrait) { 
+
+.right-about-wrapper {
+      width: 455px;
+      padding: 20px;
+  }
+
+.skill-outline-box {
+    margin-top: 20px;
+    /* background-color: #c1eee4; */
+    min-width: 350px;
+    max-width: 100%;
+    height: 450px;
+    border: 1px solid;
+}
+
+.skill-box-left {
+  width: 260px;
+  padding: 30px;
+}
+
+.skill-box-right {
+  width: 310px;
+  padding: 30px;
+}
+
+.box-two {
+  height: 2100px;
+}
+
+.box-three {
+  height: 3500px;
+}
+}
+
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+
+      ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        /* padding-inline-start: 40px; */
+    }
+    }
