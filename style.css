@@ -797,7 +797,7 @@ span {
 
 
 
-/* Smaller screens on laptop */
+/* Smaller screens on laptop and some iphones*/
 
 @media screen and (max-width: 810px) {
 
@@ -817,7 +817,7 @@ span {
       justify-content: space-evenly;
       margin: 0 auto;
       flex-wrap: wrap;
-      margin-top: 135px;
+      /* margin-top: 135px; */
   }
     .projects-work-wrapper {
       padding-top: 50px;
@@ -843,9 +843,16 @@ span {
   }
 
   .box-four {
-    height: 4000px;
+    height: 4050px;
 }
 
+h2.white-title {
+  font-size: 40px;
+}
+
+h2.black-title {
+ font-size: 50px;
+}
 }
 
 /* ipad 4th gen Portait */
@@ -863,11 +870,20 @@ and (orientation : portrait) {
   }
 
   .box-four {
-    height: 4000px;
+    height: 4500px;
   }
 
+  /* samsung s5 portrait */
+  /* @media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    .box-four {
+      height: 5500px;
+    }
 
-}
+  } */
+
 
 @media screen and (max-width: 750px) {
 
