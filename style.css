@@ -170,6 +170,15 @@ body {
 
 /* About Section */
 
+.my-photo {
+  margin-top: 30px;
+  width: 150px; 
+  height: 220px; 
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .box-two {
   height: 1400px;
   background-color: white;
@@ -230,7 +239,7 @@ body {
 
 
 .skill-outline-box {
-  margin-top: 100px;
+  margin-top: 20px;
   /* background-color: #c1eee4; */
   min-width: 350px;
   max-width: 100%;
