@@ -172,8 +172,8 @@ body {
 
 .my-photo {
   margin-top: 30px;
-  width: 150px; 
-  height: 220px; 
+  width: 180px; 
+  height: 260px; 
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -798,6 +798,8 @@ h2.white-title {
   }
   .skill-outline-box {
     margin-top: 0;
+    margin-right: 30px;
+    margin-left: 30px;
   }
 
 }
@@ -846,6 +848,10 @@ span {
 /* Smaller screens on laptop and some iphones X*/
 
 @media screen and (max-width: 810px) {
+ 
+  .my-photo {
+    margin-top: 5px;
+  }
 
   img.ga-logo {
   width: 100px;
@@ -891,7 +897,7 @@ ul.software-icons {
 }
 
 .box-two {
-height: 2800px;
+height: 3050px;
 }
 
     .projects-screen {
@@ -1190,6 +1196,14 @@ and (orientation : landscape) { /* STYLES GO HERE */}
 /* Portrait */
 @media only screen and (min-width: 1024px) and (orientation: portrait) { 
 
+  .my-photo {
+    margin-top: 0px;
+  }
+  
+  /* .right-about-wrapper {
+    padding: 0px;
+  } */
+  
   img.dg-logo {
     width: 90px;
   }
