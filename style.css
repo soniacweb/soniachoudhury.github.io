@@ -164,9 +164,14 @@ body {
   -o-background-size: 400px;
   -moz-background-size: 400px;
   -webkit-background-size: 400px;
+  max-width: 100%;
   min-height: 500px;
   background-attachment: fixed;
   background-position-y: 100px;
+}
+
+p.line-1.anim-typewriter {
+  max-width: 70%;
 }
 
 .line-1{
@@ -812,7 +817,7 @@ div.links {
   }
 
   .diagonal-black-left {
-      width: 100%;
+      width: 101%;
       border-bottom: 74px solid #c1eee4;
       -webkit-transform:
           translateY(-50px)
