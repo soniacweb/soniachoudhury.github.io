@@ -178,6 +178,7 @@ body {
   transform: translateY(-50%);    
 }
 
+
 /* Animation */
 .anim-typewriter{
 animation: typewriter 4s steps(44) 1s 1 normal both,
@@ -218,6 +219,7 @@ to{border-right-color: transparent;}
 
 .box-two {
   height: 1750px;
+  width: 101%;
   background-color: white;
   overflow: hidden;
 
@@ -524,6 +526,7 @@ h2.white-title {
 
 .box-four {
   height: 3550px;
+  width: 101%;
   background-color: white;
   overflow: hidden;
 
