@@ -157,7 +157,7 @@ body {
 /* Hero Section */
 .top-logo-with-parallax {  
   /* background-image: url("images/sc-logo.png");   */
-  background-color: #c1eee4;
+  /* background-color: #c1eee4;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 600px;
@@ -167,7 +167,7 @@ body {
   max-width: 100%;
   min-height: 500px;
   background-attachment: fixed;
-  background-position-y: 100px;
+  background-position-y: 100px; */
 }
 
 p.line-1.anim-typewriter {
