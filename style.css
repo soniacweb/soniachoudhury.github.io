@@ -1,27 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+/* @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro'); */
 
    
 body {
   margin: 0;
+  padding: 0;
   background-color: black;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lacquer', sans-serif;
   overflow-x: hidden;
+  background: #c1eee4;
+  letter-spacing: 2px;
 }
 
 
 /* Top Nav */
 
 .topnav-container {
-  width: 502px;
-  margin: 0 auto;
+  height: 50px;
+  width: 702px;
+  margin: 10px auto;
 }
 
 .topnav {
-  background-color:black;
+  background-color: #c1eee4;;
   text-align:center;
   position:fixed;
   z-index:9999;
-  width: 100vw;
+  width: 45vw;
   margin: 0px auto;
   float:clear;
 }
@@ -29,12 +33,13 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 20px;
 }
+
 
 .topnav a:hover {
   color: grey;
@@ -53,6 +58,13 @@ body {
   display: none;
 }
 
+.intro-title {
+  text-align: center;
+  font-size: 50px;
+  display: block;
+  margin: 200px auto;
+
+}
 
 /* Diagonal Line */
 
@@ -80,7 +92,7 @@ body {
 
 .diagonal-black-right {
     width: 101%;
-    border-bottom: 80px solid black;
+    border-bottom: 80px solid #c1eee4;;
     -webkit-transform:
         translateY(-50px)
         translateX(0px)
@@ -92,7 +104,7 @@ body {
 
 .diagonal-black-left {
     width: 101%;
-    border-bottom: 80px solid black;
+    border-bottom: 80px solid #c1eee4;
     -webkit-transform:
         translateY(-50px)
         translateX(0px)
@@ -139,30 +151,28 @@ body {
 }
 
 /* Hero Section */
-.top-logo-with-parallax {
-  background-image: url("images/soniachoudhurylogo.gif"); 
+.top-logo-with-parallax {  
+  /* background-image: url("images/sc-logo.png");   */
+  background-color: #c1eee4;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 400px;
+  background-size: 600px;
   -o-background-size: 400px;
   -moz-background-size: 400px;
   -webkit-background-size: 400px;
-  min-height: 700px;
+  min-height: 500px;
   background-attachment: fixed;
   background-position-y: 100px;
 }
 
 
-
 .white-title {
-  font-family: 'Montserrat', sans-serif;
   font-size: 88px;
   margin: 0;
-  color: white;
+  color:black;
 }
 
 .black-title {
-  font-family: 'Montserrat', sans-serif;
   font-size: 88px;
   margin: 20px;
   color: black;
@@ -172,18 +182,32 @@ body {
 
 .my-photo {
   margin-top: 30px;
-  width: 165px; 
-  height: 260px; 
+  width: 320px; 
+  height: 515px; 
   display: block;
   margin-right: auto;
   margin-left: auto;
 }
 
 .box-two {
-  height: 1400px;
+  height: 1750px;
   background-color: white;
   overflow: hidden;
 
+}
+
+h3.black-title {
+  font-size: 35px;
+  text-align: left;
+  /* margin-left: 320px; */
+}
+
+.cell {
+  background-color: #c1eee4;
+  border: none;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-full-wrapper {
@@ -193,7 +217,7 @@ body {
   width: 78%;
   margin: 0 auto;
   flex-wrap: wrap;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 
@@ -240,11 +264,11 @@ body {
 
 .skill-outline-box {
   margin-top: 20px;
-  /* background-color: #c1eee4; */
+  background-color: #c1eee4;
   min-width: 350px;
   max-width: 100%;
   height: 450px;
-  border: 1px solid;
+  /* border: 1px solid; */
 }
 
 .skills-inner-wrapper {
@@ -252,7 +276,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   margin: 0 auto;
-  width: 350px;
+  width: 370px;
 }
 
 
@@ -260,7 +284,6 @@ body {
 .skill-title {
   color: black;
   font-size: 15px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .skill-box-right {
@@ -277,7 +300,6 @@ body {
   color: white;
   color: #686868;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
   padding-top: 3px;
 }
 
@@ -287,14 +309,12 @@ body {
     color: white;
     color: #686868;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
     padding-top: 3px;
 }
 .skill-box-right-bottom p {
     color: white;
     color: #686868;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
     padding-top: 3px;
 }
 
@@ -346,7 +366,7 @@ margin: 0 auto;
   content: '';
   position: absolute;
   width: 6px;
-  background-color: white;
+  background-color: black;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -367,8 +387,8 @@ margin: 0 auto;
   width: 30px;
   height: 30px;
   right: -21px;
-  background-color: #ffffff;
-  border: 6px solid #ffffff;
+  background-color: black;
+  border: 6px solid black;
   border-radius: 30px;
   top: 15px;
   transform: rotate(45deg);
@@ -395,12 +415,14 @@ margin: 0 auto;
 
 /* urban  */
 
-.parralax-urban {
+.parallax-urban {
     background-image: url("images/urban1.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     /* background-size: 100%; */
     min-height: 500px;
+    width: 100%;
+    /* margin: 0; */
     background-attachment: fixed;
 }
 
@@ -408,6 +430,7 @@ margin: 0 auto;
 
 .parralax-london {
     background-image: url("images/london.jpeg");
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     /* background-size: 100%; */
@@ -424,7 +447,7 @@ h2.white-title {
 }
 .box-three {
   height: 2800px;
-  background-color: black;
+  background-color: #c1eee4;
   overflow: hidden;
 }
 
@@ -459,21 +482,21 @@ h2.white-title {
 }
 
 .experience-work-wrapper p {
-  color: white;
+  color: black;
   padding-right: 10px;
 }
 
 .experience-work-wrapper h4 {
-  color: white;
+  color: black
 }
 .experience-work-wrapper h5 {
-  color: white;
+  color: black;
 }
 
 /* BOX Four - Projects----- */
 
 .box-four {
-  height: 2850px;
+  height: 3550px;
   background-color: white;
   overflow: hidden;
 
@@ -491,6 +514,11 @@ h2.white-title {
   height: 400px;
   /* position: relative; */
 
+}
+
+div.links {
+  display: block;
+  text-align: center;
 }
 
 
@@ -524,13 +552,13 @@ h2.white-title {
 
 .project-block {
   /* border-radius: 790px; */
-  max-width: 400px;
+  background-color: #c1eee4;
+  max-width: 800px;
   min-width: 300px;
   padding: 20px;
   margin: 20px;
   /* text-align: center; */
-  background-color: white;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 
 }
 
@@ -659,7 +687,7 @@ h2.white-title {
 
 .box-five {
   height: 400px;
-  background-color: black;
+  background-color: #c1eee4;;
   overflow: hidden;
 
 }
@@ -674,13 +702,13 @@ h2.white-title {
 
 
 .contact-p {
-  color: white;
+  color: black;
 
 }
 
 .contacts-container a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .contacts-container i {
@@ -738,8 +766,8 @@ h2.white-title {
   }
 
   .diagonal-black-right {
-      width: 101%;
-      border-bottom: 74px solid black;
+      width: 100%;
+      border-bottom: 74px solid #c1eee4;
       -webkit-transform:
           translateY(-50px)
           translateX(0px)
@@ -750,8 +778,8 @@ h2.white-title {
   }
 
   .diagonal-black-left {
-      width: 101%;
-      border-bottom: 74px solid black;
+      width: 100%;
+      border-bottom: 74px solid #c1eee4;
       -webkit-transform:
           translateY(-50px)
           translateX(0px)
@@ -782,6 +810,32 @@ h2.white-title {
 /* iphone  x */
 @media screen and (max-width: 1000px) {
 
+  /* .topnav-container {
+    height: 50px;
+    width: 402px;
+    margin: 10px auto;
+  }
+  
+  .topnav {
+    background-color: #c1eee4;;
+    text-align:center;
+    position:fixed;
+    z-index:9999;
+    width: 85vw;
+    margin: 0px auto;
+    float:clear;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  } */
+
   .box-two {
     height: 2150px;
 
@@ -789,7 +843,8 @@ h2.white-title {
 
   .box-three {
     /* height: 3650px; */
-    height: 7900px;
+    /* height: 7900px; */
+    height: 7700px; <------fine one iphone x --->
   }
 
 
@@ -807,41 +862,42 @@ h2.white-title {
 /* software container */
 
 .container-software {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
+
 .software-icons {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  padding: 10px;
   justify-content: center;
   list-style: none;
+  
 }
 
 .software-icons li {
   justify-content: center;
-  border: 1px solid rgba(0,0,0,.125);
-  border-radius: 5%;
+  /* border: 1px solid rgba(0,0,0,.125); */
+  /* border-radius: 50%; */
   margin: 20px 5px 5px 5px;
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   align-items: center;
-  font-size: 13px;
+  font-size: 13px; 
 }
 
 .software-icons li i {
-  font-size: 28px;
+  font-size: 30px;
 }
 
 span {
   margin-top: 7px;
+  /* margin-bottom: 20px; */
 }
 
-.cell {
-  display: flex;
-  flex-direction: column;
-}
+
 
 
 
@@ -897,7 +953,7 @@ ul.software-icons {
 }
 
 .box-two {
-height: 3050px;
+height: 4150px;
 }
 
     .projects-screen {
@@ -942,7 +998,9 @@ height: 3050px;
   }
 
   .box-four {
-    height: 4500px;
+    /* height: 4500px; */
+    height: 3700px;    <---- fine on iphonex ----->
+
 }
 
 h2.white-title {
@@ -960,12 +1018,11 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
   .top-logo-with-parallax {
-    background-image: url("images/soniachoudhurylogo.gif");
+    /* background-image: url("images/soniachoudhurylogo.gif"); */
     background-position: center;
     background-repeat: no-repeat;
     min-height: 550px;
     background-attachment: inherit;
-    /* background-image: url("images/LOGO-abi.jpg"); */
   }
 
   .box-four {
@@ -1006,9 +1063,10 @@ and (orientation : portrait) {
 
   .top-logo-with-parallax {
     background-image: url("images/soniachoudhurylogo.gif");
+    background-color: #c1eee4;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    /* background-size: contain; */
     -o-background-size: contain;
     -moz-background-size: contain;
     -webkit-background-size: contain;
@@ -1035,7 +1093,10 @@ and (orientation : portrait) {
 /* iphones */
 
 @media screen and (max-width: 600px) {
-  .topnav a {display: none;}
+  .topnav a { 
+    display: none;
+  }
+  
   .topnav a.icon {
     float: right;
     display: block;

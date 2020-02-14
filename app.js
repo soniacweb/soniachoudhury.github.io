@@ -1,9 +1,10 @@
+/* eslint-disable no-undef */
 $( document ).ready(function() {
   console.log('JS Working')
 
+  
   //Dom Elements
   const $x = $('.icon')
-
 
 
 
@@ -49,7 +50,7 @@ $( document ).ready(function() {
             if ($target.is(':focus')) { // Checking if the target was focused
               return false
             } else {
-              $target.attr('tabindex','-1') // Adding tabindex for elements not focusable
+              $target.attr('tabindex','-1') // Adding tab index for elements not focusable
               $target.focus() // Set focus again
             }
           })
