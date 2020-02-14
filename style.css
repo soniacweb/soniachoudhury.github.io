@@ -450,7 +450,7 @@ margin: 0 auto;
     background-repeat: no-repeat;
     /* background-size: 100%; */
     min-height: 500px;
-    width: 100%;
+    width: 101%;
     /* margin: 0; */
     background-attachment: fixed;
 }
@@ -459,7 +459,7 @@ margin: 0 auto;
 
 .parralax-london {
     background-image: url("images/london.jpeg");
-    width: 100%;
+    width: 101%;
     background-position: center;
     background-repeat: no-repeat;
     /* background-size: 100%; */
