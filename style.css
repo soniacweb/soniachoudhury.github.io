@@ -191,7 +191,7 @@ p.line-1.anim-typewriter {
 /* Animation */
 .anim-typewriter{
 animation: typewriter 4s steps(44) 1s 1 normal both,
-           blinkTextCursor 500ms steps(44) infinite normal;
+           blinkTextCursor 600ms steps(44) infinite normal;
 }
 @keyframes typewriter{
 from{width: 0;}
@@ -235,6 +235,8 @@ to{border-right-color: transparent;}
 }
 
 h3.black-title {
+  width: 455px;
+  margin-left: 190px;
   font-size: 35px;
   text-align: left;
   /* margin-left: 320px; */
@@ -849,10 +851,10 @@ div.links {
 /* iphone  x */
 @media screen and (max-width: 1000px) {
 
-  /* .topnav-container {
-    height: 50px;
-    width: 402px;
-    margin: 10px auto;
+  .topnav-container {
+    height: 40px;
+    width: 392px;
+    margin: 5px auto;
   }
   
   .topnav {
@@ -860,7 +862,7 @@ div.links {
     text-align:center;
     position:fixed;
     z-index:9999;
-    width: 85vw;
+    width: 75vw;
     margin: 0px auto;
     float:clear;
   }
@@ -870,10 +872,10 @@ div.links {
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    /* padding: 14px 16px; */
     text-decoration: none;
-    font-size: 20px;
-  } */
+    font-size: 13px;
+  } 
   
   .line-1{
     position: relative;
@@ -888,6 +890,10 @@ div.links {
     transform: translateY(-50%);    
   }
   
+  h3.black-title {
+    margin: 0 25px;
+    font-size: 20px;
+  }
   
   /* Animation */
   .anim-typewriter{
@@ -910,6 +916,7 @@ div.links {
 
   }
 
+
   .box-three {
     /* height: 3650px; */
     /* height: 7900px; */
@@ -926,6 +933,13 @@ div.links {
     margin-left: 30px;
   }
 
+.box-five {
+  height: 260px;
+}
+
+i.devicon {
+width: 30px;
+}
 }
 
 /* software container */
@@ -973,9 +987,21 @@ span {
 /* Smaller screens on laptop and some iphones X*/
 
 @media screen and (max-width: 810px) {
+
+  .software-icons li {
+    width: 90px;
+    height: 90px;
+  }
+
+  span {
+    display: none;
+  }
  
-  .my-photo {
-    margin-top: 5px;
+  img.my-photo {
+    display: none;
+    /* margin: 5px auto;
+    width: 200px;
+    height: 325px; */
   }
 
   img.ga-logo {
@@ -1022,7 +1048,7 @@ ul.software-icons {
 }
 
 .box-two {
-height: 4150px;
+height: 3000px;
 }
 
     .projects-screen {
@@ -1345,11 +1371,11 @@ and (orientation : landscape) { /* STYLES GO HERE */}
 
 .skill-outline-box {
     margin-top: 20px;
-    /* background-color: #c1eee4; */
+    background-color: #c1eee4;
     min-width: 350px;
     max-width: 100%;
     height: 450px;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 .skill-box-left {
