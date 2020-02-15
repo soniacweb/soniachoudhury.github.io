@@ -249,6 +249,19 @@ h3.black-title {
   flex-direction: column;
 }
 
+/* Software icon animation */
+
+#some-element {
+  display: none;
+  transition: all 2s ease-in 5s;
+}
+
+#some-div:hover #some-element {
+  display: block;
+}
+
+/* ends  */
+
 .about-full-wrapper {
   display: flex;
   flex-direction: row;
