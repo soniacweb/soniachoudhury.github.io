@@ -29,12 +29,14 @@
     <link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css"/>
   
     <!-- css animation  -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
   </head>
   <body>
     <!-- TOP NAV -->
+    <!-- <div data-aos="fade-right"> -->
    <a name="top"></a>
     <div class="topnav responsive" id="myTopnav">
     <div class="topnav-container">
@@ -42,12 +44,15 @@
       <a href="#experience">//my experience.</a>
       <a href="#projects">//projects.</a>
       <a href="#contact">//contact.</a>
+    <!-- </div> -->
+    </div>
+    </div>
       <!-- <a href="https://soniacweb.github.io/soniasworld/">//blog.</a> -->
 
       <!-- mobile -->
-    </div>
+    <!-- </div>
     <a href="#" style="font-size: 15px;" class="icon">☰</a>
-  </div>
+  </div> -->
 
       
     <!-- Back to top button -->
@@ -73,6 +78,7 @@
   <a name="about"></a>
 
   <div class="box-two">
+    <div class="item" data-aos="fade-up">
 
     <div class="about-full-wrapper">
 
@@ -84,7 +90,7 @@
         <div class="skill-outline-box">
           <div class="skills-inner-wrapper">
               <div class="skill-box-left">
-        
+
                   <h3 class="skill-title">//frontend.</h3>
                   <p>HTML. JavaScript. jQuery. React. JSON.</p>
               
@@ -117,8 +123,8 @@
             </div>
           </div>
       </div>
-      
     </div>
+
     
     <div class="left-about-wrapper">
       <h2 class="black-title">//about me.</h2>
@@ -135,17 +141,21 @@
 
     </div>
     
+  </div>
   </div> 
 
     <!-- Software icons -->
 
-    
+    <div class="item" data-aos="fade-up">
+
     <h3 class="black-title"> //Tech stack I like.. </h3>  
-    
+    </div>
+
+    <div data-aos="fade-up">
     <section class="software"> 
       <div class="container-software">
       
-      <ul class="software-icons">
+      <div class="software-icons">
          
         <li id="some-div" class="cell">
           <i class="fab fa-html5"></i>
@@ -243,10 +253,15 @@
           <i class="devicon-visualstudio-plain"></i>
           <span id="some-element">VisualStudio</span>
         </li>
+        </div>
+      </div>
     </section>
 
+    <div class="item" data-aos="fade-up">
     <h3 class="black-title"> //Exploring more of.. </h3>  
-
+    </div>
+    
+    <div class="item" data-aos="fade-up">
     <section class="software"> 
       <div class="container-software">
       
@@ -319,15 +334,18 @@
         </li>
 
 
-    </section>
-
+          </section>
       </div>
+    </div>
+  </div>
 
-  </div>   <!-- /box two -->
+  <!-- /box two -->
 
 
-  <div class="parralax-zigzag"></div>
+  <div class="parallax-speech-bubble"></div>
 
+  <div class="diagonal-white-left"></div>
+  
   <!-- Box Three Experience -->
   <div class="diagonal-black-right"></div>
   <a name="experience"></a>
@@ -335,74 +353,91 @@
     <div class="experience-full-wrapper">
 
         <!-- <img class="triangle-icon" src="images/logo-white.gif" alt="logo"> -->
+        
+        <div class="item" data-aos="fade-up">
         <h2 class="white-title">//my story so far...</h2>
-
+          </div>
+          
         <div class="experience-work-wrapper">
           
           <div class="timeline">
 
-            <div id="some-div" class="timelineContainer left">
+            <div class="timelineContainer left">
               <div class="content" data-sr-id="21" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
                 <h4>1989</h4>
-                <p id="some-element">I was born! Legend has it I was a week late to the party, and fell asleep half way through!</p>
+                <div data-aos="fade-up-right">
+                <p>I was born! Legend has it I was a week late to the party, and fell asleep half way through!</p>
               </div>
             </div>
+            </div>
             
-            <div id="some-div" class="timelineContainer right">
+            <div class="timelineContainer right">
               <div class="content" data-sr-id="22" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
                 <h4>2009 - 2012</h4>
                 <img class="rhul-logo" src="images/uni-logo.png" alt="university logo"/>
                 <h5>BA Politics and International Relations (Royal Holloway University)</h5>
-                <p id="some-element">Some of my favourate modules include International Relations, Modern Warfare, Colonialism, South Asian Politics, and the psychologically motivating Voting Behaviour. The course demanded thoughtful, written analytical essays and allowed me to build on my public speaking and written communication skills. I also developed practical skills such as critical thinking, evaluation, and creative problem solving. </p>
+                <div data-aos="fade-up-left">
+                <p>Some of my favourate modules include International Relations, Modern Warfare, Colonialism, South Asian Politics, and the psychologically motivating Voting Behaviour. The course demanded thoughtful, written analytical essays and allowed me to build on my public speaking and written communication skills. I also developed practical skills such as critical thinking, evaluation, and creative problem solving. </p>
               </div>
             </div>
+          </div>
+          
 
-            <div id="some-div" class="timelineContainer left">
+            <div class="timelineContainer left">
               <div class="content" data-sr-id="23" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
                 <h4>2012 - 2016</h4>
                 <img class="amazon-logo" src="https://i.imgur.com/FWRzab0.png?1" alt="amazon logo" />
                 <img class="capita-logo" src="https://i.imgur.com/b8rsgjK.png" alt="capita logo"/>
                 <h5>Consultant (Amazon UK | Capita Business Services)</h5>
-                <p id="some-element">Temped briefly at Amazon UK within in their finance department freshly having gratuated before starting at Capita. I account managed the resourcing for GDS, Cabinet Office, DfT, Oxfam and the Research Councils.
+                <div data-aos="fade-up-right">
+                <p>Temped briefly at Amazon UK within in their finance department freshly having gratuated before starting at Capita. I account managed the resourcing for GDS, Cabinet Office, DfT, Oxfam and the Research Councils.
                   The overall objective was to implement the technology platform, promote, deliver and develop a successful Contingent Labour Framework across Government Clients; ensuring a best in class service, achieving and exceeding all Service Level Agreements, Business Plan, and external financial targets.</p>
               </div>
             </div>
+          </div>
 
-            <div id="some-div" class="timelineContainer right">
+            <div class="timelineContainer right">
               <div class="content" data-sr-id="24" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
                 <h4>2016 - 2018</h4>
                 <img class="dg-logo" src="images/dg_logo.png" alt="dg logo"/>
                 <img class="dh-logo" src="https://i.imgur.com/Vr16ZtD.png" alt="dh logo" >
                 <h5 >Tech Delivery Manager (Digital Gurus, London) | Project and PMO Consultant (Department of Health)</h5>
-                <p id="some-element"> @ DG: Responsibilities included client and account management, relationship building, developing search strategies to identify target companies and appropriate resources for each assignments</p> 
-                <p id="some-element"> @ DH: Accepted a 9 month contract as a Project Consultant. I oversaw recruitment campaigns for the entire business at a high level, 
+                <div data-aos="fade-up-left">
+                <p> @ DG: Responsibilities included client and account management, relationship building, developing search strategies to identify target companies and appropriate resources for each assignments</p> 
+                </div>
+                <div data-aos="fade-up-left">
+                <p> @ DH: Accepted a 9 month contract as a Project Consultant. I oversaw recruitment campaigns for the entire business at a high level, 
                   constructed business cases for stakeholders, and forecasted budgets for potential extensions and future hires. It required developing 
                   relationships quickly, and collaborating with IT, Commercial, Marketing and Finance teams to facilitate the campaigns.</p>
-
+                </div>
               </div>
             </div>
 
 
-            <div id="some-div" class="timelineContainer left">
+            <div class="timelineContainer left">
               <div class="content" data-sr-id="25" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
                 <h4>2019 Sep - 2020 Jan</h4>
                 <img class="ga-logo" src="https://i.imgur.com/NWae3uP.png?1" alt="general assembly logo">
                 <h5>Software Engineering Immersive Programme (General Assembly, London)</h5>
-                <p id="some-element">12-week intensive coding bootcamp working in teams and joint projects, including standups. The experience helped me to gain proficiency with the latest cutting edge full stack technologies and frameworks.</p>
+                <div data-aos="fade-up-right">
+                <p>12-week intensive coding bootcamp working in teams and joint projects, including standups. The experience helped me to gain proficiency with the latest cutting edge full stack technologies and frameworks.</p>
               </div>
             </div>
+          </div>
 
-
-            <div id="some-div" class="timelineContainer right">
+            <div class="timelineContainer right">
               <div class="content" data-sr-id="26" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
                 <h4 class="timeline-text-align">Now</h4>
                 <img class="udemy-logo" src="images/udemy-logo.png" alt="udemy logo">
                 <img class="fcc-logo" src="https://i.imgur.com/sin641z.png" alt="free code camp logo">
-                <p id="some-element" ><strong>Currently working on a project using React.js and seeking opportunities to work as a Junior Full Stack Developer where I can apply my new skills in web development, and join a creative, innovative company who share my values on transparency, consistency and compassion for the wider society.</strong></p><strong>
-                  </strong><p><strong id="some-element">Get in touch!</strong></p>
+                <div data-aos="fade-up-left">
+                <p>Currently working on a project using React.js and seeking opportunities to work as a Junior Full Stack Developer where I can apply my new skills in web development, and join a creative, innovative company who share my values on transparency, consistency and compassion for the wider society.</strong></p>
+                </div>
+                <div data-aos="fade-up-left">  
+                <p><strong>Get in touch!</strong></p>
                 </div>
               </div>
-
+            </div>
 
             </div>
         </div>
@@ -419,10 +454,14 @@
 
   <div class="box-four">
     <div class="projects-full-wrapper">
-
+      <div data-aos="fade-up">
         <h2 class="black-title">//projects..</h2>
+      </div>
 
+      
         <div class="projects-work-wrapper">
+
+          <div data-aos="fade-up">
             <div class="projects-screen">
               <div class="flickity-container">
                 <div class="gallery js-flickity">
@@ -463,6 +502,7 @@
                 </div>
               </div>
             </div>
+            </div>
 
             <!-- <div class="projects-screen2">
               <div class="flickity-container">
@@ -496,7 +536,7 @@
 
             <div class="projects-info-wrapper">
 
-            
+              <div data-aos="fade-up">
               <div class="project-block">
                 <!-- <h4> Space Invaders </h4> -->
                 <img class="projectlogo" src="https://www.imgur.com/PY5QBmk.png" style="width:270px; display: block; margin-left: auto;
@@ -520,9 +560,10 @@
                  <a href="https://github.com/soniacweb/Project-01" target="_blank"><i class="fab fa-github-square"></i></a>
                 </div>
               </div>
+            </div>
             <!-- </div> -->
 
-
+            <div data-aos="fade-up">
               <div class="project-block">
                 <img class="projectlogo" src="https://i.imgur.com/Pe7nacN.png" style="width:200px; display: block; margin-left: auto;
                 margin-right: auto;"/>
@@ -548,7 +589,9 @@
                 <a href="https://github.com/soniacweb/The-Vault" target="_blank"><i class="fab fa-github-square"></i></a>
               </div>
             </div>
+            </div>
 
+            <div data-aos="fade-up">
               <div class="project-block">
                 <img class="projectlogo" src="https://www.imgur.com/yVhxiRe.png" style="width:230px; display: block; margin-left: auto;
                 margin-right: auto;"/>
@@ -573,7 +616,9 @@
                 <a href="https://github.com/soniacweb/flixbox" target="_blank"><i class="fab fa-github-square"></i></a>
               </div>
             </div>
+          </div>
 
+          <div data-aos="fade-up">
               <div class="project-block">
                 <img class="projectlogo" src="https://i.imgur.com/v8wV4gK.png" style="width:200px; display: block; margin-left: auto;
                 margin-right: auto;"/>
@@ -594,11 +639,13 @@
                   </div> -->
                  <!-- </div> -->
                   <div class="links">
-                  <a href="" target="_blank"><i class="fas fa-link"></i></a>
+                  <!-- <a href="" target="_blank"><i class="fas fa-link"></i></a> -->
                 <a href="https://github.com/soniacweb/project4redbrix" target="_blank"><i class="fab fa-github-square"></i></a>
               </div>
             </div>
+          </div>
 
+          <div data-aos="fade-up">
               <div class="project-block">
                 <img class="projectlogo" src="./images/Disney_Villains.gif" style="width:250px; display: block; margin-left: auto; margin-right: auto;"/>
                 <!-- <h4> Disney Villains</h4> -->
@@ -623,7 +670,9 @@
                 <a href="https://github.com/soniacweb/disneyvillains" target="_blank"><i class="fab fa-github-square"></i></a>
               </div>
             </div>
+          </div>
 
+          <div data-aos="fade-up">
               <div class="project-block">
                 <img class="projectlogo" src="https://www.imgur.com/eWqRUxE.png" style="width:190px; display: block; margin-left: auto;
                 margin-right: auto;"/> 
@@ -637,6 +686,7 @@
                 <a href="https://github.com/soniacweb/potterworld" target="_blank"><i class="fab fa-github-square"></i></a>
               </div>
             </div>
+          </div>
 
               <!-- <div id="some-div" class="project-block">
                 <img class="projectlogo" src="https://i.imgur.com/T64dMMN.png" style="width:130px; display: block; margin-left: auto;
@@ -675,18 +725,30 @@
 
   <div class="diagonal-black-right"></div>
   <!-- Box Five Contacts -->
+  
   <a name="contact"></a>
   <div class="box-five">
     <div class="contacts-full-wrapper">
-      
+      <div data-aos="fade-up">
         <h2 class="white-title">//contact.</h2>
+      </div>
+
+      
         <div class="contacts-and-copy-right-wrapper">
           <div class="contacts-container">
+            <div data-aos="fade-up">
             <p class="contact-p"><i class="far fa-envelope"></i><a href="mailto:sonia.choudhury@hotmail.co.uk" target="_blank"> sonia.choudhury@hotmail.co.uk</a></p>
+          </div>
+
+          <div data-aos="fade-up">
             <p class="contact-p"><i class="fab fa-github"></i><a href="https://github.com/soniacweb" target="_blank"> github.com/soniacweb</a></p>
+          </div>
+
+          <div data-aos="fade-up">
             <p class="contact-p"><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/sonia-k-choudhury" target="_blank"> www.linkedin.com/in/sonia-k-choudhury</a></p>
           </div>
         </div>
+      </div>
       
     </div>
   </div>   <!-- /box three -->
@@ -694,6 +756,18 @@
 
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   
+    <script>
+    AOS.init({
+      duration: 1200,  
+    })
+
+    AOS.init();
+
+  </script>
+
   </body>
 </html>
