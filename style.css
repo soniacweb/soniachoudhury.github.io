@@ -780,7 +780,7 @@ button {
 
 /* iphone */
 
-.projects-screen2 {
+/* .project-screen2 {
   background-image: url(images/iphone.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -792,7 +792,7 @@ button {
   margin: 0 auto;
   position: relative;
 
-}
+} */
 
 
 /* Box Five - Contacts */
@@ -1139,12 +1139,23 @@ opacity: 100%;
 height: 2700px;
 }
 
-    .projects-screen {
-      background-image: none;
-      margin: 0 auto;
-      width: 100vw;
-      height: 300px;
-      min-height: 50px;
+.project-screen {
+  background-image: url(images/mac-screen.png);
+  background-image: none;  
+  margin: 0 auto;
+}
+
+.gallery-cell {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.project-screen {
+background-image: none;
+margin: 0 auto;
+width: 95vw;
+height: 200px;
+min-height: 50px;
   }
 
     .projects-info-wrapper {
