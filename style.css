@@ -600,7 +600,7 @@ div.links {
 /* Macscreen */
 
 
-.projects-screen {
+.project-screen {
   background-image: url(images/mac-screen.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -611,7 +611,6 @@ div.links {
   min-height: 530px;
   margin: 0 auto;
   position: relative;
-
 }
 
 
@@ -708,7 +707,8 @@ button {
 
 .gallery-cell {
   /* position: relative; */
-  width: 100%;
+  width: 110%;
+  /* height: 70%; */
   background: black;
   counter-increment: gallery-cell;
 }
