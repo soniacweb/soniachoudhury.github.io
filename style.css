@@ -171,7 +171,7 @@ body {
 }
 
 p.line-1.anim-typewriter {
-  max-width: 70%;
+  max-width: 90%;
 }
 
 .line-1{
@@ -252,13 +252,16 @@ h3.black-title {
 /* Software icon animation */
 
 #some-element {
-  display: none;
-  transition: all 5s ease 10s;
+  /* display: none; */
+  opacity: 0%;
+  -webkit-transition: all 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+  -moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
+    -o-transition: all 0.3s ease-out;  /* Opera 10.50–12.00 */
+       transition: all 0.3s ease-out; 
 }
 
 #some-div:hover #some-element {
-  display: block;
-  /* transition: all 100s; */
+opacity: 100%;
 }
 
 /* ends  */
@@ -500,7 +503,7 @@ h2.white-title {
   margin-top: 20px;
 }
 .box-three {
-  height: 2000px;
+  height: 3000px;
   background-color: #c1eee4;
   overflow: hidden;
 }
