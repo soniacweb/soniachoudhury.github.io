@@ -1118,6 +1118,23 @@ ul.software-icons {
   padding-inline-start: 0px;
 }
 
+/* Software icon animation */
+
+#some-element {
+  /* display: none; */
+  opacity: 0%;
+  -webkit-transition: all 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+  -moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
+    -o-transition: all 0.3s ease-out;  /* Opera 10.50–12.00 */
+       transition: all 0.3s ease-out; 
+}
+
+#some-div:hover #some-element {
+opacity: 100%;
+}
+
+/* ends  */
+
 .box-two {
 height: 2700px;
 }
