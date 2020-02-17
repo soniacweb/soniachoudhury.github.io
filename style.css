@@ -1119,7 +1119,7 @@ ul.software-icons {
 }
 
 .box-two {
-height: 3000px;
+height: 2700px;
 }
 
     .projects-screen {
@@ -1156,8 +1156,12 @@ height: 3000px;
   /* <---- normal setting which is fine on iphonex -----> */
   .box-four {
     /* height: 4500px; */
-    height: 3700px;    
+    height: 4000px;    
 
+}
+
+.box-five {
+  height: 500px;
 }
 
 h2.white-title {
@@ -1167,6 +1171,45 @@ h2.white-title {
 h2.black-title {
  font-size: 50px;
 }
+
+div.right-about-wrapper {
+  display: none;
+}
+
+.parallax-speech-bubble {
+  background-image: url("https://i.imgur.com/ETQteVv.png"), url("https://i.imgur.com/bJRpmUU.png");
+  background-position: center;
+  background-repeat: repeat, repeat;
+  background-size: 350px, 50px;
+  min-height: 450px;
+  width: 101%;
+  /* margin: 0; */
+  background-attachment: fixed;
+}
+
+.parallax-urban {
+  background-image: url("https://i.imgur.com/nKJC3V7.png"), url("https://i.imgur.com/bJRpmUU.png");
+  background-position: center;
+  background-repeat: repeat, repeat;
+  background-size: 150px, 40px;
+  min-height: 450px;
+  width: 101%;
+  /* margin: 0; */
+  background-attachment: fixed;
+}
+
+.parralax-london {
+  background-image: url("https://i.imgur.com/jX4ZPcw.png"), url("https://i.imgur.com/bJRpmUU.png");
+  width: 101%;
+  padding: 20px;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 80px, 30px;
+  min-height: 500px;
+  background-attachment: fixed;
+}
+
+
 }
 
 /* ipad 4th gen Portait */
