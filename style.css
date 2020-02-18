@@ -1140,7 +1140,7 @@ height: 2700px;
 }
 
 .project-screen {
-  background-image: url(images/mac-screen.png);
+  /* background-image: url(images/mac-screen.png); */
   background-image: none;  
   margin: 0 auto;
 }
