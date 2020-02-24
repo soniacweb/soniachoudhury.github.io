@@ -570,7 +570,7 @@ h2.white-title {
 /* BOX Four - Projects----- */
 
 .box-four {
-  height: 3300px;
+  height: 4000px;
   width: 101%;
   background-color: white;
   overflow: hidden;
@@ -1245,17 +1245,101 @@ div.right-about-wrapper {
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
+
+  /* .topnav {
+    background-color: #c1eee4;;
+    text-align:center;
+    position:fixed;
+    z-index:9999;
+    width: 55vw;
+    margin: 0px auto;
+    float:clear;
+  } */
+
   .top-logo-with-parallax {
     /* background-image: url("images/soniachoudhurylogo.gif"); */
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 550px;
+    min-height: 500px;
     background-attachment: inherit;
   }
 
-  .box-four {
-    height: 4500px;
+  .box-two {
+    height: 1900px;
   }
+
+  .box-three {
+    height: 3850px;
+    /* height: 7900px; */
+    /* height: 7700px; <------fine one iphone x ---> */
+  }
+
+  .box-four {
+    height: 3500px;
+  }
+
+  .parallax-speech-bubble {
+    min-height: 300px;
+  }
+
+  .line-1{
+    position: relative;
+    top: 50%;  
+    width: 29em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 50%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+  }
+  
+  h3.black-title {
+    margin: 0 25px;
+    font-size: 20px;
+  }
+  
+  /* Animation */
+  .anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+  }
+  @keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+  }
+
+  
+
+  div.timeline {
+    width: 700px;
+  }
+  .skill-outline-box {
+    margin-top: 0;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+.projects-info-wrapper {
+    margin-top: 200px;
+  }
+
+
+.box-five {
+  height: 260px;
+}
+
+i.devicon {
+width: 30px;
+}
+
+}
+
 
   /* samsung s5 portrait */
   /* @media screen 
@@ -1467,16 +1551,16 @@ and (orientation : portrait) {
 
 }
 
+
 /* ipad 4th generation portrait */
-@media only screen
+/* @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
-and (orientation : portrait) { /* STYLES GO HERE */ }
-/* ipad 4th generation landscape */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : landscape) { /* STYLES GO HERE */}
+and (orientation : portrait) {
+
+
+
+ } */
 
 
 
@@ -1484,6 +1568,7 @@ and (orientation : landscape) { /* STYLES GO HERE */}
 
 /* Portrait */
 @media only screen and (min-width: 1024px) and (orientation: portrait) { 
+
 
   .my-photo {
     margin-top: 0px;
@@ -1528,6 +1613,7 @@ and (orientation : landscape) { /* STYLES GO HERE */}
 .box-three {
   height: 3680px;
 }
+
 }
 
 @media only screen 
@@ -1565,6 +1651,6 @@ and (orientation : landscape) { /* STYLES GO HERE */}
   }
   
   .box-three {
-      height: 6550px;
+      height: 4050px;
       }
     }
