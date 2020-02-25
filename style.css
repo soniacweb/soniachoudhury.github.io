@@ -520,7 +520,7 @@ h2.white-title {
   margin-top: 20px;
 }
 .box-three {
-  height: 3000px;
+  height: 3100px;
   background-color: #c1eee4;
   overflow: hidden;
 }
@@ -980,13 +980,15 @@ button {
   to{border-right-color: transparent;}
   }
 
-  
+div.left-about-wrapper {
+  /* margin-left: 50px;
+  margin-right: 50px; */
+  padding: 0 50px;
+}
 
-  .box-two {
-    height: 2150px;
-
+  h3.black-title {
+  margin-left: 150px;
   }
-
 
   .box-three {
     /* height: 3650px; */
@@ -1275,7 +1277,7 @@ and (orientation : portrait) {
   }
 
   .box-four {
-    height: 3500px;
+    height: 4000px;
   }
 
   .parallax-speech-bubble {
@@ -1331,7 +1333,7 @@ and (orientation : portrait) {
 
 
 .box-five {
-  height: 260px;
+  height: 350px;
 }
 
 i.devicon {
@@ -1650,7 +1652,13 @@ and (orientation : portrait) {
       /* padding-inline-start: 40px; */
   }
   
+
   .box-three {
       height: 4050px;
+      }
+
+      .box-four {
+        height: 4550px;
+
       }
     }
