@@ -483,7 +483,7 @@ margin: 0 auto;
 .parallax-speech-bubble {
   background-image: url("https://i.imgur.com/wGDFvNT.png");
   background-position: cover;
-  Background-color: rgb(238, 238, 238);
+  Background-color: white;
   background-repeat: repeat;
   background-size: 190px;
   min-height: 450px;
@@ -505,7 +505,7 @@ margin: 0 auto;
     width: 101%;
     /* margin: 0; */
     background-attachment: fixed;
-    Background-color: rgb(238, 238, 238);
+    Background-color: white;
 }
 
 /* london */
@@ -519,7 +519,7 @@ margin: 0 auto;
     background-size: 550px;
     min-height: 450px;
     background-attachment: fixed;
-    Background-color: rgb(238, 238, 238);
+    Background-color: white;
 }
 
 
