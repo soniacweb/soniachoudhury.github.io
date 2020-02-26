@@ -15,6 +15,10 @@ body {
   letter-spacing: 2px;
 }
 
+h5 {
+text-align:center;
+}
+
 a { color: inherit; } 
 
 
@@ -485,6 +489,7 @@ margin: 0 auto;
   width: 101%;
   /* margin: 0; */
   background-attachment: fixed;
+  /* background-color: white; */
 }
 
 
