@@ -481,11 +481,11 @@ margin: 0 auto;
 }
 
 .parallax-speech-bubble {
-  background-image: url("https://i.imgur.com/ETQteVv.png"), url("https://i.imgur.com/bJRpmUU.png");
-  background-position: center;
-  Background-color: lightgrey;
-  background-repeat: repeat, repeat;
-  background-size: 350px, 50px;
+  background-image: url("https://i.imgur.com/wGDFvNT.png");
+  background-position: cover;
+  Background-color: rgb(238, 238, 238);
+  background-repeat: repeat;
+  background-size: 190px;
   min-height: 450px;
   width: 101%;
   /* margin: 0; */
@@ -497,29 +497,29 @@ margin: 0 auto;
 /* urban  */
 
 .parallax-urban {
-    background-image: url("https://i.imgur.com/nKJC3V7.png"), url("https://i.imgur.com/bJRpmUU.png");
+    background-image: url("https://i.imgur.com/Un7BTKk.png");
     background-position: center;
-    background-repeat: repeat, repeat;
-    background-size: 250px, 50px;
+    /* background-repeat: repeat; */
+    background-size: 380px;
     min-height: 450px;
     width: 101%;
     /* margin: 0; */
     background-attachment: fixed;
-    Background-color: lightgrey;
+    Background-color: rgb(238, 238, 238);
 }
 
 /* london */
 
 .parralax-london {
-    background-image: url("https://i.imgur.com/jX4ZPcw.png"), url("https://i.imgur.com/bJRpmUU.png");
+    background-image: url("https://i.imgur.com/Idl2XAk.png");
     width: 101%;
     padding: 20px;
     background-position: center;
-    background-repeat: repeat;
-    background-size: 110px, 50px;
-    min-height: 500px;
+    /* background-repeat: repeat; */
+    background-size: 550px;
+    min-height: 450px;
     background-attachment: fixed;
-    Background-color: lightgrey;
+    Background-color: rgb(238, 238, 238);
 }
 
 
