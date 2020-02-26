@@ -483,6 +483,7 @@ margin: 0 auto;
 .parallax-speech-bubble {
   background-image: url("https://i.imgur.com/ETQteVv.png"), url("https://i.imgur.com/bJRpmUU.png");
   background-position: center;
+  Background-color: lightgrey;
   background-repeat: repeat, repeat;
   background-size: 350px, 50px;
   min-height: 450px;
@@ -504,6 +505,7 @@ margin: 0 auto;
     width: 101%;
     /* margin: 0; */
     background-attachment: fixed;
+    Background-color: lightgrey;
 }
 
 /* london */
@@ -517,6 +519,7 @@ margin: 0 auto;
     background-size: 110px, 50px;
     min-height: 500px;
     background-attachment: fixed;
+    Background-color: lightgrey;
 }
 
 
@@ -1239,6 +1242,8 @@ div.right-about-wrapper {
   width: 101%;
   /* margin: 0; */
   background-attachment: fixed;
+  Background-color: lightgrey;
+
 }
 
 .parallax-urban {
@@ -1250,6 +1255,8 @@ div.right-about-wrapper {
   width: 101%;
   /* margin: 0; */
   background-attachment: fixed;
+  Background-color: lightgrey;
+
 }
 
 .parralax-london {
@@ -1261,6 +1268,7 @@ div.right-about-wrapper {
   background-size: 80px, 30px;
   min-height: 500px;
   background-attachment: fixed;
+  Background-color: lightgrey;
 }
 
 
@@ -1288,6 +1296,8 @@ and (orientation : portrait) {
     background-repeat: no-repeat;
     min-height: 500px;
     background-attachment: inherit;
+    Background-color: lightgrey;
+
   }
 
   .box-two {
@@ -1401,7 +1411,7 @@ width: 30px;
 
   .top-logo-with-parallax {
     background-image: url("images/soniachoudhurylogo.gif");
-    background-color: #c1eee4;
+    Background-color: lightgrey;
     background-position: center;
     background-repeat: no-repeat;
     /* background-size: contain; */
