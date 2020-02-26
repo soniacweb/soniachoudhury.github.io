@@ -15,6 +15,8 @@ body {
   letter-spacing: 2px;
 }
 
+a { color: inherit; } 
+
 
 /* Top Nav */
 
@@ -241,9 +243,9 @@ to{border-right-color: transparent;}
 
 h3.black-title {
   width: 455px;
-  margin-left: 290px;
+  /* margin-left: 290px; */
   font-size: 35px;
-  text-align: left;
+  text-align: center;
 }
 
 .cell {
@@ -324,7 +326,7 @@ opacity: 100%;
 
 
 .skill-outline-box {
-  margin-top: 20px;
+  margin-top: 180px;
   background-color: #c1eee4;
   min-width: 350px;
   max-width: 100%;
@@ -986,9 +988,9 @@ div.left-about-wrapper {
   padding: 0 50px;
 }
 
-  h3.black-title {
+  /* h3.black-title {
   margin-left: 150px;
-  }
+  } */
 
   .box-three {
     /* height: 3650px; */
@@ -1060,6 +1062,22 @@ span {
 /* Smaller screens on laptop and some iphones X*/
 
 @media screen and (max-width: 810px) {
+
+  /* software icon animation  */
+  #some-element {
+    /* display: none; */
+    opacity: 0%;
+    -webkit-transition: all 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+    -moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
+      -o-transition: all 0.3s ease-out;  /* Opera 10.50–12.00 */
+         transition: all 0.3s ease-out; 
+  }
+  
+  #some-div:hover #some-element {
+  opacity: 100%;
+  }
+  
+  /* ends  */
 
   .software-icons li {
     width: 90px;
@@ -1443,15 +1461,23 @@ width: 30px;
     display: block;
     text-align: left;
   }
+
+  div.software-icons {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .box-two {
+    height: 2230px;
+  }
+
 }
 
 
 /* timeline */
 @media screen and (max-width: 600px) {
 
-  .box-two {
-    height: 2830px;
-  }
+
 
   .box-three {
     height: 3650px;
