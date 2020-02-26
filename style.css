@@ -1205,8 +1205,7 @@ min-height: 50px;
 
   /* <---- normal setting which is fine on iphonex -----> */
   .box-four {
-    /* height: 4500px; */
-    height: 4000px;    
+    height: 4700px;    
 
 }
 
@@ -1682,7 +1681,7 @@ and (orientation : portrait) {
   
 
   .box-three {
-      height: 4050px;
+      height: 4150px;
       }
 
       .box-four {
