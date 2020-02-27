@@ -1268,6 +1268,18 @@ div.right-about-wrapper {
   display: none;
 }
 
+.parralax-intro {
+  background-image: url("https://i.imgur.com/6nV8I69.png");
+  width: 101%;
+  padding: 20px;
+  background-position: center;
+  /* background-repeat: repeat; */
+  background-size: 290px;
+  min-height: 400px;
+  background-attachment: fixed;
+  Background-color: white;
+}
+
 .parallax-speech-bubble {
   background-image: url("https://i.imgur.com/wGDFvNT.png");
   background-position: cover;
@@ -1288,7 +1300,7 @@ div.right-about-wrapper {
     background-image: url("https://i.imgur.com/y9poODk.png");
     background-position: center;
     /* background-repeat: repeat; */
-    background-size: 380px;
+    background-size: 250px;
     min-height: 450px;
     width: 101%;
     /* margin: 0; */
@@ -1304,7 +1316,7 @@ div.right-about-wrapper {
     padding: 20px;
     background-position: center;
     /* background-repeat: repeat; */
-    background-size: 550px;
+    background-size: 300px;
     min-height: 450px;
     background-attachment: fixed;
     Background-color: white;
