@@ -640,7 +640,7 @@ div.links {
   max-width: 800px;
   min-width: 300px;
   padding: 20px;
-  margin: 20px;
+  margin: 20px 150px;
   /* text-align: center; */
   /* border: 1px solid black; */
 
@@ -923,7 +923,7 @@ button {
 
 @media screen and (max-width: 1040px) {
   .box-four {
-    height: 4000px;
+    height: 4500px;
 
   }
 
@@ -1234,45 +1234,52 @@ div.right-about-wrapper {
 }
 
 .parallax-speech-bubble {
-  background-image: url("https://i.imgur.com/ETQteVv.png"), url("https://i.imgur.com/bJRpmUU.png");
-  background-position: center;
-  background-repeat: repeat, repeat;
-  background-size: 350px, 50px;
+  background-image: url("https://i.imgur.com/wGDFvNT.png");
+  background-position: cover;
+  Background-color: white;
+  background-repeat: repeat;
+  background-size: 190px;
   min-height: 450px;
   width: 101%;
   /* margin: 0; */
   background-attachment: fixed;
-  Background-color: lightgrey;
-
+  /* background-color: white; */
 }
+
+
+/* urban  */
 
 .parallax-urban {
-  background-image: url("https://i.imgur.com/nKJC3V7.png"), url("https://i.imgur.com/bJRpmUU.png");
-  background-position: center;
-  background-repeat: repeat, repeat;
-  background-size: 150px, 40px;
-  min-height: 450px;
-  width: 101%;
-  /* margin: 0; */
-  background-attachment: fixed;
-  Background-color: lightgrey;
-
+    background-image: url("https://i.imgur.com/Un7BTKk.png");
+    background-position: center;
+    /* background-repeat: repeat; */
+    background-size: 380px;
+    min-height: 450px;
+    width: 101%;
+    /* margin: 0; */
+    background-attachment: fixed;
+    Background-color: white;
 }
+
+/* london */
 
 .parralax-london {
-  background-image: url("https://i.imgur.com/jX4ZPcw.png"), url("https://i.imgur.com/bJRpmUU.png");
-  width: 101%;
-  padding: 20px;
-  background-position: center;
-  background-repeat: repeat;
-  background-size: 80px, 30px;
-  min-height: 500px;
-  background-attachment: fixed;
-  Background-color: lightgrey;
+    background-image: url("https://i.imgur.com/Idl2XAk.png");
+    width: 101%;
+    padding: 20px;
+    background-position: center;
+    /* background-repeat: repeat; */
+    background-size: 550px;
+    min-height: 450px;
+    background-attachment: fixed;
+    Background-color: white;
 }
 
 
 }
+
+
+
 
 /* ipad 4th gen Portait */
 @media only screen
@@ -1311,7 +1318,7 @@ and (orientation : portrait) {
   }
 
   .box-four {
-    height: 4000px;
+    height: 4500px;
   }
 
   .parallax-speech-bubble {
@@ -1332,7 +1339,9 @@ and (orientation : portrait) {
   }
   
   h3.black-title {
-    margin: 0 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 55px;
     font-size: 20px;
   }
   
@@ -1438,6 +1447,16 @@ width: 30px;
 
 /* iPhone 6+/6s+/7+/8+ share the same sizes */
 
+/* @media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+
+  .box-four{
+    height: 5000px;
+  }
+
+} */
+
 /* iphones */
 
 @media screen and (max-width: 600px) {
@@ -1484,8 +1503,9 @@ width: 30px;
   }
 
   .box-two {
-    height: 2230px;
+    height: 2270px;
   }
+
 
 }
 
