@@ -15,7 +15,7 @@ body {
   letter-spacing: 2px;
 }
 
-h5 {
+#project-techs {
 text-align:center;
 }
 
@@ -1023,6 +1023,24 @@ div.left-about-wrapper {
 i.devicon {
 width: 30px;
 }
+
+/* Software icon animation */
+
+#some-element {
+  /* display: none; */
+  opacity: 0%;
+  -webkit-transition: all 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+  -moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
+    -o-transition: all 0.3s ease-out;  /* Opera 10.50–12.00 */
+       transition: all 0.3s ease-out; 
+}
+
+#some-div:hover #some-element {
+opacity: 100%;
+}
+
+/* ends  */
+
 }
 
 /* software container */
@@ -1062,6 +1080,7 @@ span {
   margin-top: 7px;
   /* margin-bottom: 20px; */
 }
+
 
 
 
@@ -1554,11 +1573,11 @@ and (max-device-width : 667px) {
 }
 }
 
-/* iphone 5 landscape */
+/* iphone 5 landscape - this affects my iphone x box four*/
 @media screen and (max-width : 568px) {
 
   .box-four {
-    height: 4050px;
+    height: 4850px;
   }
 
   .projects-info-wrapper {
