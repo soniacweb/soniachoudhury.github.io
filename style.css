@@ -988,7 +988,10 @@ button {
   }
   
   h3.black-title {
-    margin: 0 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 35px;
+    margin-bottom: 0;
     font-size: 20px;
   }
   
@@ -1201,7 +1204,7 @@ opacity: 100%;
 /* ends  */
 
 .box-two {
-height: 2700px;
+height: 2800px;
 }
 
 .project-screen {
@@ -1531,6 +1534,7 @@ and (max-device-width : 667px) {
   }
 }
 
+/* iphone x */
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
@@ -1550,7 +1554,7 @@ and (max-device-width : 667px) {
   }
 
   .box-two {
-    height: 2270px;
+    height: 2370px;
   }
 
 
