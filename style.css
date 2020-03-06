@@ -653,10 +653,10 @@ div.links {
 .project-block {
   /* border-radius: 790px; */
   background-color: #c1eee4;
-  max-width: 800px;
+  max-width: 420px;
   min-width: 300px;
   padding: 20px;
-  margin: 20px 150px;
+  margin: 20px;
   /* text-align: center; */
   /* border: 1px solid black; */
 
