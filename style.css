@@ -510,11 +510,11 @@ margin: 0 auto;
 
 
 .parallax-speech-bubble {
-  background-image: url("https://i.imgur.com/wGDFvNT.png");
+  background-image: url("https://i.imgur.com/PoIpulI.jpg");
   background-position: cover;
   Background-color: white;
   background-repeat: repeat;
-  background-size: 260px;
+  background-size: 560px;
   min-height: 450px;
   width: 101%;
   /* margin: 0; */
@@ -526,10 +526,10 @@ margin: 0 auto;
 /* urban  */
 
 .parallax-urban {
-    background-image: url("https://i.imgur.com/y9poODk.png");
+    background-image: url("https://i.imgur.com/sZ3IhA9.jpg");
     background-position: center;
     /* background-repeat: repeat; */
-    background-size: 330px;
+    background-size: 440px;
     min-height: 450px;
     width: 101%;
     /* margin: 0; */
@@ -1318,7 +1318,7 @@ div.right-about-wrapper {
 }
 
 .parallax-speech-bubble {
-  background-image: url("https://i.imgur.com/wGDFvNT.png");
+  background-image: url("https://i.imgur.com/PoIpulI.jpg");
   background-position: cover;
   Background-color: white;
   background-repeat: repeat;
