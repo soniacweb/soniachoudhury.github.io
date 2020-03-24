@@ -1387,7 +1387,7 @@ and (orientation : portrait) {
   }
 
   .box-four {
-    height: 4795px;
+    height: 7595px;
   }
 
   .experience-work-wrapper p {
@@ -1648,7 +1648,7 @@ and (max-device-width : 667px) {
 @media screen and (max-width : 568px) {
 
   .box-four {
-    height: 4850px;
+    height: 9850px;
   }
 
   .projects-info-wrapper {
