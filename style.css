@@ -2,6 +2,7 @@
 
 html {
   max-width: 100%;
+  font-family: 'Lacquer', sans-serif;
 }
    
 body {
@@ -596,7 +597,7 @@ h2.white-title {
 /* BOX Four - Projects----- */
 
 .box-four {
-  height: 3100px;
+  height: 5500px;
   width: 101%;
   background-color: white;
   overflow: hidden;
@@ -687,7 +688,7 @@ div.links {
 }
 
 i.fas {
-font-size: 17px;
+font-size: 23px;
 }
 
 /* hidden project slides insides boxes */
@@ -948,21 +949,38 @@ button {
 /* iphone  x */
 @media screen and (max-width: 1000px) {
 
-  .topnav-container {
+  /* .topnav-container {
     height: 40px;
     width: 392px;
     margin: 5px auto;
-  }
+  } */
   
   .topnav {
-    background-color: #c1eee4;;
-    text-align:center;
-    position:fixed;
-    z-index:9999;
-    width: 75vw;
-    margin: 0px auto;
-    float:clear;
+      background-color: #c1eee4;
+      text-align: center;
+      position: fixed;
+      z-index: 9999;
+      width: 100vw;
+      margin: 0px auto;
+      float: clear;
   }
+
+  .course-text {
+    width: 315px;
+    margin-top: 10px;
+  }
+
+  .course-image-left {
+    margin: 0 auto;
+    max-width: 350px; 
+  }
+  .course-image-right {
+    margin: 0 auto;
+    width: 350px; 
+  }
+
+  }
+ 
   
   .topnav a {
     float: left;
@@ -1250,6 +1268,7 @@ min-height: 50px;
   }
 
   /* <---- normal setting which is fine on iphonex -----> */
+ 
   .box-four {
     height: 4700px;    
 
@@ -1791,12 +1810,20 @@ and (orientation : portrait) {
       }
 
       .box-four {
-        height: 4950px;
+        height: 10000px;
       }
 
       html {
         overflow-x: hidden;
       }
+
+    /* .course-image-left {
+    max-width: 100px;
+    }
+    .course-image-right {
+      max-width: 100px;
+    } */
+
     }
 
     /* software icon individual animation  */
@@ -1844,3 +1871,73 @@ and (orientation : portrait) {
       animation-name: bounce;
       -moz-animation-name: bounce;
     }
+
+
+
+/* currently */
+
+    .experience-work-wrapper {
+      /* padding-top: 50px; */
+      padding: 20px;
+      /* background-color: #c1eee4; */
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      /* height: 100%; */
+  }
+
+  .me-titles {
+    font-size: 30px;
+  }
+
+  #studies-section {
+    background-color:#c1eee4;
+    width: 100%;
+}
+.section {
+  padding: 3rem 1.5rem;
+  display: block;
+  text-align: justify;
+}
+
+/* studies section  */
+
+.course-wrapper {
+  margin-top: 40px;
+  overflow-x: hidden;
+
+}
+.course-image-left img {
+  max-height: 300px; 
+  float: left;
+  margin: 15px 10px 0px 0px; 
+  /* padding: 5px; */
+
+}
+
+.course-image-right img {
+  max-height: 300px; 
+  float: right;
+  margin: 25px auto; 
+  padding: 5px;
+}
+
+.course-text {
+  padding: 2px;
+}
+
+  @media only screen and (max-width: 800px){
+
+    .course-image {
+        max-height: 200px;
+        }
+      }
+    .course-wrapper .container {
+        padding: 20px;
+        /* overflow-x: hidden; */
+
+    }
+  
