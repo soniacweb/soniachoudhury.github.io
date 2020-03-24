@@ -3,6 +3,8 @@
 html {
   max-width: 100%;
   font-family: 'Lacquer', sans-serif;
+  background: white;
+
 }
    
 body {
@@ -254,8 +256,8 @@ h3.black-title {
 }
 
 .cell {
-  background-color: #c1eee4;
-  border: none;
+  background-color: white;
+  border: 4px solid #c1eee4;
   border-radius: 0;
   display: flex;
   flex-direction: column;
@@ -365,25 +367,29 @@ opacity: 100%;
 }
 
 .skill-box-left p {
-  color: white;
-  color: #686868;
+  /* color: white; */
+  color: black;
   margin: 0;
   padding-top: 3px;
+  font-size: 12px;
 }
+
 
 
 
 .skill-box-right-top p {
-    color: white;
-    color: #686868;
+    /* color: white; */
+    color: black;
     margin: 0;
     padding-top: 3px;
+    font-size: 12px;
 }
 .skill-box-right-bottom p {
-    color: white;
-    color: #686868;
+    /* color: white; */
+    color: black;
     margin: 0;
     padding-top: 3px;
+    font-size: 12px;
 }
 
 /* timeline */
@@ -475,7 +481,12 @@ margin: 0 auto;
 
 .left p {
   text-align: right;
+  /* background-color: white;
+  border: 3px solid white;
+  padding: 5px; */
 }
+
+
 
 .right::after {
   left: -21px;
@@ -547,7 +558,7 @@ h2.white-title {
   margin-top: 20px;
 }
 .box-three {
-  height: 3100px;
+  height: 3500px;
   background-color: #c1eee4;
   overflow: hidden;
 }
@@ -653,7 +664,8 @@ div.links {
 
 .project-block {
   /* border-radius: 790px; */
-  background-color: #c1eee4;
+  /* background-color: #c1eee4; */
+  border: 2px solid #c1eee4;
   max-width: 420px;
   min-width: 300px;
   padding: 20px;
@@ -998,7 +1010,7 @@ button {
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 37%;
+    font-size: 120%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -1037,11 +1049,11 @@ div.left-about-wrapper {
   margin-left: 150px;
   } */
 
-  .box-three {
+  /* .box-three { */
     /* height: 3650px; */
     /* height: 7900px; */
-    height: 7700px; <------fine one iphone x --->
-  }
+    /* height: 7700px; <------fine one iphone x ---> */
+  /* } */
 
 
   div.timeline {
@@ -1051,10 +1063,12 @@ div.left-about-wrapper {
     margin-top: 0;
     margin-right: 30px;
     margin-left: 30px;
+    background-color: white;
+    border: 4px solid #c1eee4;
   }
 
 .box-five {
-  height: 260px;
+  height: 360px;
 }
 
 i.devicon {
@@ -1193,10 +1207,10 @@ span {
   /* skills box on iphone X */
 
   .skill-box-right {
-    padding: 30px;
+    padding: 40px;
   }
   .skill-box-left {
-    padding: 30px;
+    padding: 40px;
   }
 
   /* software icons on iphone X */
@@ -1381,7 +1395,7 @@ and (orientation : portrait) {
   }
 
   .box-three {
-    height: 3850px;
+    height: 4150px;
     /* height: 7900px; */
     /* height: 7700px; <------fine one iphone x ---> */
   }
@@ -1606,7 +1620,8 @@ and (max-device-width : 667px) {
 
 
   .box-three {
-    height: 3650px;
+    /* height: 3650px; */
+    height: 4050px;
   }
 
   /* Place the timelime to the left */
@@ -1806,16 +1821,16 @@ and (orientation : portrait) {
   
 
   .box-three {
-      height: 4150px;
-      }
+    height: 4700px;
+    }
 
-      .box-four {
-        height: 10000px;
-      }
+  .box-four {
+    height: 10000px;
+    }
 
-      html {
-        overflow-x: hidden;
-      }
+   html {
+    overflow-x: hidden;
+    }
 
     /* .course-image-left {
     max-width: 100px;
