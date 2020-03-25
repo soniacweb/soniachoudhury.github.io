@@ -562,6 +562,8 @@ h2.white-title {
   height: 3500px;
   background-color: white;
   overflow: hidden;
+  border-left: 50px solid #c1eee4;
+  border-right: 50px solid #c1eee4;
 }
 
 
