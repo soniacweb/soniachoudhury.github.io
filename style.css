@@ -441,7 +441,7 @@ margin: 0 auto;
   content: '';
   position: absolute;
   width: 6px;
-  background-color: black;
+  background-color: #c1eee4;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -462,8 +462,8 @@ margin: 0 auto;
   width: 30px;
   height: 30px;
   right: -21px;
-  background-color: black;
-  border: 6px solid black;
+  background-color: #c1eee4;
+  border: 6px solid #c1eee4;
   border-radius: 30px;
   top: 15px;
   transform: rotate(45deg);
@@ -560,7 +560,7 @@ h2.white-title {
 }
 .box-three {
   height: 3500px;
-  background-color: #c1eee4;
+  background-color: white;
   overflow: hidden;
 }
 
@@ -1893,7 +1893,7 @@ and (orientation : portrait) {
 
 /* currently */
 
-    .experience-work-wrapper {
+    .currently-wrapper {
       /* padding-top: 50px; */
       border: 3px solid #c1eee4; 
       padding: 20px;
