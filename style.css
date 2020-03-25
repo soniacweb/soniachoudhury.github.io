@@ -359,30 +359,28 @@ opacity: 100%;
 
 .skill-box-right {
   width: 310px;
-  padding: 30px
+  padding: 40px
 }
 
 .skill-box-left {
   width: 260px;
-  padding: 30px
+  padding: 40px
 }
 
 .skill-box-left p {
   /* color: white; */
   color: black;
   margin: 0;
-  padding-top: 3px;
+  padding: 8px 0;
   font-size: 12px;
 }
-
-
 
 
 .skill-box-right-top p {
     /* color: white; */
     color: black;
     margin: 0;
-    padding-top: 3px;
+    padding-top: 8px;
     font-size: 12px;
 }
 .skill-box-right-bottom p {
@@ -1065,11 +1063,15 @@ div.left-about-wrapper {
     width: 700px;
   }
   .skill-outline-box {
-    margin-top: 0;
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-top: 90px;
+    /* margin-right: 30px;
+    margin-left: 30px; */
     background-color: white;
     border: 4px solid #c1eee4;
+  }
+
+  .random-stuff-title {
+    margin-top: 40px;
   }
 
 .box-five {
