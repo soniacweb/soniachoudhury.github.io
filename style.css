@@ -481,7 +481,7 @@ margin: 0 auto;
 }
 
 .left p {
-  text-align: right;
+  text-align: left;
   /* background-color: white;
   border: 3px solid white;
   padding: 5px; */
@@ -1825,11 +1825,11 @@ and (orientation : portrait) {
   
 
   .box-three {
-    height: 4800px;
+    height: 5400px;
     }
 
   .box-four {
-    height: 10000px;
+    height: 10080px;
     }
 
    html {
