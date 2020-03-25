@@ -184,7 +184,7 @@ p.line-1.anim-typewriter {
   max-width: 100%;
 }
 
-.line-1{
+.line-1 {
   position: relative;
   top: 50%;  
   width: 24em;
@@ -992,6 +992,7 @@ button {
     width: 350px; 
   }
 
+
   }
  
   
@@ -1011,7 +1012,7 @@ button {
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 120%;
+    font-size: 55%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -1608,7 +1609,7 @@ and (max-device-width : 667px) {
   }
 
   .box-two {
-    height: 2370px;
+    height: 2400px;
   }
 
 
@@ -1822,7 +1823,7 @@ and (orientation : portrait) {
   
 
   .box-three {
-    height: 4700px;
+    height: 4800px;
     }
 
   .box-four {
@@ -1901,7 +1902,7 @@ and (orientation : portrait) {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
-      margin: 0 auto;
+      margin: 20px;
       flex-wrap: wrap;
       /* height: 100%; */
   }
