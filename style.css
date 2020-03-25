@@ -1361,7 +1361,6 @@ div.right-about-wrapper {
     Background-color: white;
 }
 
-
 }
 
 
@@ -1934,31 +1933,35 @@ and (orientation : portrait) {
 .course-image-left img {
   max-height: 300px; 
   float: left;
-  margin: 15px 10px 0px 0px; 
-  /* padding: 5px; */
-
+  margin: 15px 0px 0px 0px; 
+  padding: 30px;
 }
 
 .course-image-right img {
   max-height: 300px; 
   float: right;
-  margin: 25px auto; 
-  padding: 5px;
+  margin: 25px 10px; 
+  padding: 25px;
 }
 
 .course-text {
-  padding: 2px;
+  /* border: 6px solid #c1eee4; */
+  margin: 10px;
+  padding: 10px;
+  display: block;
 }
+
 
   @media only screen and (max-width: 800px){
 
+  
     .course-image {
-        max-height: 200px;
+        max-height: 100px;
         }
-      }
+      
     .course-wrapper .container {
         padding: 20px;
         /* overflow-x: hidden; */
 
     }
-  
+  }
