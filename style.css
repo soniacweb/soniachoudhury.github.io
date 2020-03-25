@@ -354,12 +354,18 @@ opacity: 100%;
 
 .skill-title {
   color: black;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .skill-box-right {
   width: 310px;
-  padding: 40px
+  /* padding: 40px; */
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 25px;
+  padding-right: 30px;
+
+
 }
 
 .skill-box-left {
@@ -609,7 +615,7 @@ h2.white-title {
 /* BOX Four - Projects----- */
 
 .box-four {
-  height: 5500px;
+  height: 6500px;
   width: 101%;
   background-color: white;
   overflow: hidden;
@@ -1407,7 +1413,7 @@ and (orientation : portrait) {
   }
 
   .box-four {
-    height: 7595px;
+    height: 7600px;
   }
 
   .experience-work-wrapper p {
@@ -1627,7 +1633,7 @@ and (max-device-width : 667px) {
 
   .box-three {
     /* height: 3650px; */
-    height: 4050px;
+    height: 5150px;
   }
 
   /* Place the timelime to the left */
@@ -1669,7 +1675,7 @@ and (max-device-width : 667px) {
 @media screen and (max-width : 568px) {
 
   .box-four {
-    height: 9850px;
+    height: 12850px;
   }
 
   .projects-info-wrapper {
@@ -1831,7 +1837,7 @@ and (orientation : portrait) {
     }
 
   .box-four {
-    height: 10080px;
+    height: 13380px;
     }
 
    html {
@@ -1938,14 +1944,14 @@ and (orientation : portrait) {
   max-height: 300px; 
   float: left;
   margin: 15px 0px 0px 0px; 
-  padding: 30px;
+  padding: 20px;
 }
 
 .course-image-right img {
   max-height: 300px; 
   float: right;
   margin: 25px 10px; 
-  padding: 25px;
+  padding: 20px;
 }
 
 .course-text {
