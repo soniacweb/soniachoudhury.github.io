@@ -466,11 +466,11 @@ margin: 0 auto;
   width: 30px;
   height: 30px;
   right: -21px;
-  background-color: #c1eee4;
+  /* background-color: #c1eee4; */
   border: 6px solid #c1eee4;
-  border-radius: 30px;
+  /* border-radius: 30px; */
   top: 15px;
-  transform: rotate(45deg);
+  /* transform: rotate(45deg); */
   z-index: 1;
 }
 
@@ -847,7 +847,7 @@ button {
 /* Box Five - Contacts */
 
 .box-five {
-  height: 400px;
+  height: 500px;
   background-color: #c1eee4;;
   overflow: hidden;
 
@@ -870,12 +870,13 @@ button {
 .contacts-container a {
   text-decoration: none;
   color: black;
+  padding: 10px;
 }
 
-.contacts-container i {
-  padding-right: 15px;
+/* .contacts-container i {
+  padding-right: 7px;
 
-}
+} */
 
 .copyright-block {
   color: white;
@@ -988,7 +989,7 @@ button {
   }
 
   .course-text {
-    width: 315px;
+    width: 815px;
     margin-top: 10px;
   }
 
@@ -1084,7 +1085,7 @@ div.left-about-wrapper {
   }
 
 .box-five {
-  height: 360px;
+  height: 400px;
 }
 
 i.devicon {
@@ -1410,13 +1411,13 @@ and (orientation : portrait) {
   }
 
   .box-three {
-    height: 4150px;
+    height: 4450px;
     /* height: 7900px; */
     /* height: 7700px; <------fine one iphone x ---> */
   }
 
   .box-four {
-    height: 7600px;
+    height: 11200px;
   }
 
   .experience-work-wrapper p {
@@ -1678,7 +1679,7 @@ and (max-device-width : 667px) {
 @media screen and (max-width : 568px) {
 
   .box-four {
-    height: 12850px;
+    height: 17850px;
   }
 
   .projects-info-wrapper {
@@ -1840,7 +1841,7 @@ and (orientation : portrait) {
     }
 
   .box-four {
-    height: 13380px;
+    height: 15180px;
     }
 
    html {
