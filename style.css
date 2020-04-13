@@ -492,11 +492,14 @@ margin: 0 auto;
 }
 
 
-
 .right::after {
   left: -21px;
 }
 
+wired-link {
+  margin-top: 10px;
+  /* color: black; */
+}
 /* intro  */
 
 
@@ -563,11 +566,11 @@ h2.white-title {
   margin-top: 20px;
 }
 .box-three {
-  height: 3500px;
+  height: 4000px;
   background-color: white;
   overflow: hidden;
-  border-left: 50px solid #c1eee4;
-  border-right: 50px solid #c1eee4;
+  /* border-left: 50px solid #c1eee4;
+  border-right: 50px solid #c1eee4; */
 }
 
 
@@ -615,7 +618,7 @@ h2.white-title {
 /* BOX Four - Projects----- */
 
 .box-four {
-  height: 6500px;
+  height: 7900px;
   width: 101%;
   background-color: white;
   overflow: hidden;
@@ -672,7 +675,7 @@ div.links {
 .project-block {
   /* border-radius: 790px; */
   /* background-color: #c1eee4; */
-  border: 2px solid #c1eee4;
+  /* border: 2px solid #c1eee4; */
   max-width: 420px;
   min-width: 300px;
   padding: 20px;
@@ -1905,7 +1908,7 @@ and (orientation : portrait) {
 
     .currently-wrapper {
       /* padding-top: 50px; */
-      border: 3px solid #c1eee4; 
+      /* border: 3px solid #c1eee4;  */
       padding: 20px;
       /* background-color: #c1eee4; */
       width: 100%;
@@ -1915,6 +1918,10 @@ and (orientation : portrait) {
       margin: 20px;
       flex-wrap: wrap;
       /* height: 100%; */
+  }
+
+  wired-item-selected-color {
+    background-color: #c1eee4;
   }
 
   .me-titles {
@@ -1940,14 +1947,14 @@ and (orientation : portrait) {
 }
 
 
-.course-image-left img {
+.course-image-left {
   max-height: 300px; 
   float: left;
   margin: 15px 0px 0px 0px; 
   padding: 20px;
 }
 
-.course-image-right img {
+.course-image-right {
   max-height: 300px; 
   float: right;
   margin: 25px 10px; 
