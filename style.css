@@ -517,11 +517,11 @@ wired-link {
 
 
 .parallax-speech-bubble {
-  background-image: url("https://i.imgur.com/TxNz3Ln.jpg");
+  background-image: url("https://i.imgur.com/y2CYM8q.png");
   background-position: cover;
   Background-color: white;
   background-repeat: repeat;
-  background-size: 360px;
+  background-size: 400px;
   min-height: 450px;
   width: 101%;
   /* margin: 0; */
@@ -533,10 +533,10 @@ wired-link {
 /* urban  */
 
 .parallax-urban {
-    background-image: url("https://i.imgur.com/BkJ0lot.jpg");
+    background-image: url("https://i.imgur.com/xpE6Peq.png");
     background-position: center;
     /* background-repeat: repeat; */
-    background-size: 330px;
+    background-size: 530px;
     min-height: 450px;
     width: 101%;
     /* margin: 0; */
@@ -547,7 +547,7 @@ wired-link {
 /* london */
 
 .parralax-london {
-    background-image: url("https://i.imgur.com/SYjV13j.jpg");
+    background-image: url("https://i.imgur.com/ndr5vQS.png");
     width: 101%;
     padding: 20px;
     background-position: center;
@@ -1350,7 +1350,7 @@ div.right-about-wrapper {
 /* urban  */
 
 .parallax-urban {
-    background-image: url("https://i.imgur.com/BkJ0lot.jpg");
+    background-image: url("https://i.imgur.com/xpE6Peq.png");
     background-position: center;
     /* background-repeat: repeat; */
     background-size: 250px;
@@ -1364,7 +1364,7 @@ div.right-about-wrapper {
 /* london */
 
 .parralax-london {
-    background-image: url("https://i.imgur.com/SYjV13j.jpg");
+    background-image: url("https://i.imgur.com/ndr5vQS.png");
     width: 101%;
     padding: 20px;
     background-position: center;
