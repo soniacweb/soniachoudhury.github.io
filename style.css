@@ -29,8 +29,8 @@ a { color: inherit; }
 
 .topnav-container {
   height: 50px;
-  width: 800px;
-  margin: 10px auto;
+  width: 850px;
+  margin: 2px auto;
 }
 
 .topnav {
@@ -40,7 +40,7 @@ a { color: inherit; }
   position:fixed;
   z-index:9999;
   width: 66vw;
-  margin: 0px auto;
+  margin: 10px auto;
   float: clear;
 }
 
@@ -979,7 +979,7 @@ button {
   } */
   
   .topnav {
-      background-color: #c1eee4;
+      /* background-color: #c1eee4; */
       text-align: center;
       position: fixed;
       z-index: 9999;
