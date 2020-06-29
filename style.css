@@ -856,11 +856,11 @@ button {
 .contacts-full-wrapper {
   width: 80%;
   margin: 0 auto;
-
-
 }
 
-
+/* a #contactinfo {
+  margin-bottom: 40px;
+} */
 
 .contact-p {
   color: black;
@@ -871,6 +871,7 @@ button {
   text-decoration: none;
   color: black;
   padding: 10px;
+  margin: 30px 0px;
 }
 
 /* .contacts-container i {
