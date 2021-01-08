@@ -660,7 +660,7 @@ div.links {
 
 
 .project-screen {
-  background-image: url(images/mac-screen.png);
+  background-image: url(https://i.imgur.com/Ee3cSeZ.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -754,25 +754,24 @@ button {
 
 
 .flickity-container {
-  width: 100%;
-  max-width: 616px;
-  margin: 0 auto;
-  position: absolute;
-  left:0;
-  right:0;
-  top:4%;
+  width: 130%;
+  max-width: 595px;
+  margin-top: 95px;
   margin-left:auto;
-  margin-right:auto;
+  margin-right: auto;
+  position: absolute;
+  left: 0;
+  right:0;
+  /* margin-left:auto;
+  margin-right:auto; */
 
 }
 
 
 .gallery-cell {
-  /* position: relative; */
-  width: 110%;
-  /* height: 70%; */
-  background: black;
+  width: 114%;
   counter-increment: gallery-cell;
+  position: fixed;
 }
 
 /* cell number */
@@ -1896,16 +1895,7 @@ and (orientation : portrait) {
       }
     }
     div.bounce_button {  
-      /* position: absolute; */
-      /* top: 50%;
-      left: 50%; */
-      /* height: 180px;
-      width: 180px; */
-      /* background-color: red;   */
-      /* border-radius: 50%; */
-      /* line-height: 180px; */
-      /* text-align: center;
-      text-transform: uppercase; */
+    
       -webkit-animation-duration: 1s;
       animation-duration: 1s;
       -webkit-animation-fill-mode: both;
@@ -1914,7 +1904,7 @@ and (orientation : portrait) {
       animation-timing-function: ease-in-out;
       animation-iteration-count: infinite;
       -webkit-animation-iteration-count: infinite;
-      /* color: white; */
+  
     }
     div.bounce_button:hover {
       cursor: pointer;
