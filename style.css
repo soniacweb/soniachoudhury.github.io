@@ -15,11 +15,17 @@ body {
   padding: 0;
   background-color: black;
   font-family: 'Lacquer', sans-serif;
+  font-weight: normal;
   /* font-family: 'Amatic SC', cursive; */
   /* font-family: 'Long Cang', cursive; */
   overflow-x: hidden;
   background: #c1eee4;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  justify-content: center;
 }
 
 #project-techs {
