@@ -2,7 +2,9 @@
 
 html {
   max-width: 100%;
-  font-family: 'Lacquer', sans-serif;
+  /* font-family: 'Long Cang', cursive; */
+  font-family: 'Amatic SC', cursive;
+  /* font-family: 'Lacquer', sans-serif; */
   background: white;
 
 }
@@ -12,7 +14,9 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
-  font-family: 'Lacquer', sans-serif;
+  /* font-family: 'Lacquer', sans-serif; */
+  font-family: 'Amatic SC', cursive;
+  /* font-family: 'Long Cang', cursive; */
   overflow-x: hidden;
   background: #c1eee4;
   letter-spacing: 2px;
@@ -45,13 +49,14 @@ a { color: inherit; }
 }
 
 .topnav a {
-  float: left;
+  /* float: left; */
   display: block;
   color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 70px;
+  font-weight: bold;
 }
 
 
@@ -231,6 +236,12 @@ to{border-right-color: transparent;}
 }
 
 /* About Section */
+
+.about {
+  font-size: 20px;
+  font-weight: bold;
+
+}
 
 .my-photo {
   margin-top: 30px;
@@ -721,7 +732,9 @@ font-size: 23px;
 
 button {
   width: 130px;
-  font-family: 'Lacquer', sans-serif;
+  /* font-family: 'Lacquer', sans-serif; */
+  /* font-family: 'Long Cang', cursive; */
+  font-family: 'Amatic SC', cursive;
   font-size: 18px;
   color: #c1eee4;
   padding: 8px;
@@ -1032,6 +1045,7 @@ button {
 
   
   h3.black-title {
+    font-weight: 700;
     margin-right: 25px;
     margin-left: 25px;
     margin-top: 35px;
@@ -1083,6 +1097,8 @@ div.left-about-wrapper {
 
   .random-stuff-title {
     margin-top: 40px;
+    font-weight: bold;
+
   }
 
 .box-five {
@@ -1138,7 +1154,9 @@ opacity: 100%;
   width: 110px;
   height: 110px;
   align-items: center;
-  font-size: 13px; 
+  font-size: 15px; 
+  font-weight: bold;
+
 }
 
 .software-icons li i {
