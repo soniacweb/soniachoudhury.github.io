@@ -139,6 +139,18 @@ a { color: inherit; }
     /* right: -1px; */
 }
 
+.diagonal-black-left1 {
+  width: 101%;
+  border-bottom: 80px solid white;
+  -webkit-transform:
+      translateY(-50px)
+      translateX(0px)
+      rotate(1.2deg);
+  position: absolute;
+  overflow-x: hidden;
+  /* right: -1px; */
+}
+
 
 /* Back to top button */
 
