@@ -3,8 +3,8 @@
 html {
   max-width: 100%;
   /* font-family: 'Long Cang', cursive; */
-  font-family: 'Amatic SC', cursive;
-  /* font-family: 'Lacquer', sans-serif; */
+  /* font-family: 'Amatic SC', cursive; */
+  font-family: 'Lacquer', sans-serif;
   background: white;
 
 }
@@ -14,8 +14,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
-  /* font-family: 'Lacquer', sans-serif; */
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Lacquer', sans-serif;
+  /* font-family: 'Amatic SC', cursive; */
   /* font-family: 'Long Cang', cursive; */
   overflow-x: hidden;
   background: #c1eee4;
@@ -898,6 +898,7 @@ button {
 }
 
 .contacts-and-copy-right-wrapper {
+  /* height: 90%; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
