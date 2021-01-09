@@ -58,6 +58,7 @@ a { color: inherit; }
 
 .topnav a {
   /* float: left; */
+  background: white;
   margin: 0 10px;
   display: block;
   color: black;
