@@ -1983,7 +1983,7 @@ and (orientation : portrait) {
 .course-wrapper {
   margin-top: 40px;
   overflow-x: hidden;
-  box-shadow: 20px 16px 0px 5px #000000;
+  box-shadow: 18px 17px 0px 5px #000000;
   border: 1px solid black;
 }
 
