@@ -14,12 +14,11 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   
     <!-- /Favicon -->
-
-    <link rel="stylesheet" href="style.css">
+   
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
-    <script src="app.js" charset="utf-8"></script>
-    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
@@ -31,16 +30,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Long+Cang&display=swap" rel="stylesheet">
     
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <!-- css animation  -->
-    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+   
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
     <!-- wired  -->
-    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet"> -->
     <script type="module" src="https://unpkg.com/wired-elements@2.0.5/lib/wired-elements-bundled.js"></script>
+    <script src="app.js" charset="utf-8"></script>
 
   </head>
   <body>
@@ -1089,105 +1088,81 @@
 
               <div data-aos="fade-up">
                 <!-- <wired-card elevation="6"> -->
-                <h2 class="black-title" style="margin: 50px 100px auto; padding: 20px"> //i am currently.. </h2>
+                <h2 class="black-title" style="margin: 100px 100px auto; padding: 20px"> //i am currently.. </h2>
                 <!-- </wired-card> -->
               </div>
 
               <a name="currently"></a>
+
               <div data-aos="fade-up">
-              <wired-card elevation="8">
-              <div class="currently-wrapper" style="margin: 50px auto; padding: 10px">
-                <div data-aos="fade-up">
-                <div class="company-work-experience-block">
-                  <h2 class="me-titles">
-                    <!-- <i class="fas fa-bookmark fa-4x"></i>  -->
-                    <img src="https://i.imgur.com/phJd7Lu.png" style="width:30px;"/>
-                    //Reading</h2>
-                  <wired-listbox id="combo" selected="three" style="padding: 10px">
-                  <wired-item value="one"><p> > 30 days of React</p></wired-item>
-                  <wired-item value="two"><p> > Full-stack React Projects <br> by Shama Hoque</p></wired-item>
-                  <wired-item value="three"><p> > Harry Potter- Cursed Child</p></wired-item>
-                  <wired-item value="four"><p> > The Kite Runner</p></wired-item>
-                  <wired-item value="five"><p> > The Book Thief</p></wired-item>
-                </wired-listbox>
 
-                <div data-aos="fade-up">
-                <h2>
-                  //Appreciating</h2>
-                <wired-listbox id="combo" selected="three" style="padding: 10px">
-                  <wired-item value="one"><p> > edabit (630XP)</p> </wired-item>
-                  <wired-item value="two"><p> > codebar.io </p> </wired-item>
-                  <wired-item value="three"><p> > the nhs <3 </p> </wired-item>
-
-                </wired-listbox>
+              <section id="currently">
+                <div class="container-fluid">
+                  
+                  <div class="row">
+                    
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                      <h4 class="me-titles"><img src="https://i.imgur.com/phJd7Lu.png" style="width:30px;"/> //Reading</h4>
+                        <!-- <wired-listbox id="combo" selected="three" style="padding: 20px"> -->
+                       <p class="p-currently"> > Eloquent JavaScript</p>
+                       <p class="p-currently"> > Full-stack React Projects <br> by Shama Hoque</p>
+                       <p class="p-currently"> > Harry Potter- Cursed Child</p>
+                       <p class="p-currently"> > The Kite Runner</p>
+                        <!-- </wired-listbox> -->
+              
+                    </div>
+              
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                      <h4 class="me-titles"><img src="https://i.imgur.com/LlSnZ5O.png" style="width:30px;"/> //Listening</h4>
+                      <!-- <wired-listbox id="combo" selected="three" style="padding: 30px"> -->
+                        <p class="p-currently"> > lauv </p> 
+                        <p class="p-currently"> > the weeknd </p> 
+                        <p class="p-currently"> > khalid </p> 
+                        <p class="p-currently"> > lofi hiphop </p>
+                      <!-- </wired-listbox> -->
+              
+              
+                      <h4 class="me-titles">
+                        //Podcasts</h4>
+                      <!-- <wired-listbox id="combo" selected="two" style="padding: 20px"> -->
+                      <p> > Front End Happy Hour </p> 
+                      <p> > Modern Web </p> 
+                      <p> > Front-End Five </p>
+                    <!-- </wired-listbox> -->
+                    </div>
+              
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                      <h4 class="me-titles"><img src="https://i.imgur.com/2tupRuv.png" style="width:30px;"/> //Watching</h4>
+                      <!-- <wired-listbox id="combo" selected="two" style="padding: 20px"> -->
+                        <p class="p-currently"> > Witcher <cite>(Netflix)</cite></p>
+                        <p class="p-currently"> > Terrace House <cite>(Netflix)</cite></p>
+                        <p class="p-currently"> > This Is Us <cite>(Amazon Prime)</cite> </p>
+                        <p class="p-currently"> > a lot of k-dramas <cite>(Netflix)</cite></p>
+                      <!-- </wired-listbox> -->
+              
+                      
                     </div>
                   </div>
+                 </div>
                 </div>
-
                 <div data-aos="fade-up">
-                <div class="company-work-experience-block">
-                  <h2 class="me-titles">
-                    <!-- <i class="fas fa-tv"></i>  -->
-                    <img src="https://i.imgur.com/2tupRuv.png" style="width:30px;"/>
-                    //Watching</h2>
-                  <wired-listbox id="combo" selected="two" style="padding: 10px">
-                  <wired-item value="one"><p> > Witcher</p></wired-item>
-                  <wired-item value="two"><p> > Terrace House </p></wired-item>
-                  <wired-item value="three"><p> > pandemic </p></wired-item>
-                  <wired-item value="four"><p> > a lot of k-dramas </p></wired-item>
-                </wired-listbox>
 
-             
-
-              </div>
-                </div>
-
-                <div data-aos="fade-up">
-                <div class="company-work-experience-block">
-                  <h2 class="me-titles">
-                    <!-- <i class="fas fa-headphones"> -->
-                      <img src="https://i.imgur.com/LlSnZ5O.png" style="width:30px;"/>
-
-                    </i> //Listening</p>
-                  <h2>
-                    <!-- <i class="fab fa-spotify"></i>  -->
-                    //Music</h2>
-                  <wired-listbox id="combo" selected="three" style="padding: 10px">
-                    <wired-item value="one"><p> > lauv </p> </wired-item>
-                    <wired-item value="two"><p> > the weeknd </p> </wired-item>
-                    <wired-item value="three"><p> > lofi hiphop </p> </wired-item>
-
-                  </wired-listbox>
-                </div>
-
-                <div data-aos="fade-up">
-                  <h2>
-                    <!-- <i class="fas fa-podcast"></i>  -->
-                    //Podcasts</h2>
-                  <wired-listbox id="combo" selected="two" style="padding: 10px">
-                  <!-- <p> > codenewbie </p> -->
-                  <wired-item value="one"><p> > Front End Happy Hour </p> </wired-item>
-                  <!-- <p> > Software Engineering Daily </p>
-                  <p> > JavaScript Jabber </p> -->
-                  <!-- <p> > The Changelog </p> -->
-                  <!-- <p> > Developer Tea </p>
-                  <p> > Coding Blocks </p> -->
-                  <!-- <p> > Responsive Web Design Podcast </p> -->
-                  <wired-item value="two"><p> > Modern Web </p> </wired-item>
-                    <wired-item value="three"> <p> > Front-End Five </p> </wired-item>
-                </wired-listbox>
-                </div>
-                </div>
-
-                <div data-aos="fade-up">
-                  <wired-card elevation="3">
-                  <p> ..updated every 3 months </p>
+                <div class="currently-footer">
+                <wired-card elevation="3">
+                  <h6 class="footnote">
+                    <span>* </span>..updated every 3 months
+                  </h6>
                 </wired-card>
-                  </div>
-
-              </div>  
-              </wired-card>
+              </div>
             </div>
+
+              </section>
+
+
+
+              <!-- </div>  
+              </wired-card> -->
+            <!-- </div> -->
 
           
 <!--             

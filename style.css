@@ -29,8 +29,9 @@ p {
   padding: 4px;
 }
 
-#project-techs {
+h5#project-techs {
 text-align:center;
+font-size: 15px;
 }
 
 a { color: inherit; } 
@@ -622,20 +623,20 @@ h2.white-title {
   margin: 0 auto;
   flex-wrap: wrap;
 }
-.company-work-experience-block {
-  width: 300px;
+/* .company-work-experience-block {
+  width: 900px
 }
 .company-work-experience-block h4 {
   min-height: 30px;
 }
 .company-work-experience-block h5 {
   min-height: 20px;
-}
+} */
 
 /* affects the ga logo on the timeline so commented it out */
-.experience-work-wrapper div img {
-  /* width: 200px; */
-}
+/* .experience-work-wrapper div img {
+  width: 200px;
+} */
 
 .experience-full-wrapper {
   width: 80%;
@@ -908,7 +909,6 @@ button {
 }
 
 
-
 .contacts-container a {
   text-decoration: none;
   color: black;
@@ -916,10 +916,14 @@ button {
   margin: 30px 0px;
 }
 
-/* .contacts-container i {
-  padding-right: 7px;
+img.img-icons {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  top: 10px;
+}
 
-} */
+
 
 .copyright-block {
   color: white;
@@ -1960,23 +1964,57 @@ and (orientation : portrait) {
 
 /* currently */
 
-    .currently-wrapper {
-      /* padding-top: 50px; */
-      /* border: 3px solid #c1eee4;  */
-      padding: 20px;
-      /* background-color: #c1eee4; */
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      margin: 20px;
-      flex-wrap: wrap;
-      /* height: 100%; */
-  }
+  section#currently {
+    position: relative;
+    /* display: block; */
+    padding: 30px 0;
+    top: 60px;
+}
 
-  wired-item-selected-color {
-    background-color: #c1eee4;
-  }
+.p-currently {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+p .p-currently:hover {
+background-color: grey;
+}
+
+.container-fluid {
+  position: absolute;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 60px;
+}
+
+.me-titles {
+  font-weight: bold;
+  margin: 30px 0 20px 0;
+}
+
+.currently-footer {
+margin: auto;
+display: block;
+
+}
+@media (min-width: 768px) {
+.container-fluid {
+    max-width: 80%;
+}
+}
+
+@media (min-width: 768px) {
+.col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+} 
 
   .me-titles {
     font-size: 30px;
@@ -1986,7 +2024,8 @@ and (orientation : portrait) {
     background-color:#c1eee4;
     width: 100%;
 }
-.section {
+
+#currently {
   padding: 3rem 1.5rem;
   display: block;
   text-align: justify;
@@ -1994,7 +2033,7 @@ and (orientation : portrait) {
 
 /* studies section  */
 
-.course-wrapper {
+/* .course-wrapper {
   margin-top: 40px;
   overflow-x: hidden;
   box-shadow: 18px 17px 0px 5px #000000;
@@ -2014,10 +2053,9 @@ and (orientation : portrait) {
   float: right;
   margin: 25px 10px; 
   padding: 20px;
-}
-
+} */
+/* 
 .course-text {
-  /* border: 6px solid #c1eee4; */
   margin: 10px;
   padding: 10px;
   display: block;
@@ -2035,5 +2073,5 @@ and (orientation : portrait) {
         padding: 20px;
         /* overflow-x: hidden; */
 
-    }
-  }
+    /* }
+  }  */
