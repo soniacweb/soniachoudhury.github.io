@@ -657,7 +657,7 @@ h2.white-title {
 /* BOX Four - Projects----- */
 
 .box-four {
-  height: 7900px;
+  height: 3900px;
   width: 101%;
   background-color: white;
   overflow: hidden;
@@ -1103,15 +1103,6 @@ div.left-about-wrapper {
   padding: 0 50px;
 }
 
-  /* h3.black-title {
-  margin-left: 150px;
-  } */
-
-  /* .box-three { */
-    /* height: 3650px; */
-    /* height: 7900px; */
-    /* height: 7700px; <------fine one iphone x ---> */
-  /* } */
 
 
   div.timeline {
@@ -1207,6 +1198,9 @@ span {
 
 @media screen and (max-width: 810px) {
 
+  body {
+    position: absolute;
+  }
   /* software icon animation  */
   #some-element {
     /* display: none; */
@@ -1399,13 +1393,11 @@ div.right-about-wrapper {
 /* urban  */
 
 .parallax-urban {
-    background-image: url("https://i.imgur.com/VvGttwM.png");
+    background-image: url("https://i.imgur.com/i6eAvvo.jpg");
     background-position: center;
-    /* background-repeat: repeat; */
     background-size: 250px;
     min-height: 450px;
     width: 101%;
-    /* margin: 0; */
     background-attachment: fixed;
     Background-color: white;
 }
@@ -1424,8 +1416,26 @@ div.right-about-wrapper {
     Background-color: white;
 }
 
+.contacts-container a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  margin: 20px 0px;
+  font-size: 15px;
 }
 
+img.img-icons {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+/* .contacts-full-wrapper {
+
+}
+.contacts-and-copy-right-wrapper {
+  width: 120px;
+} */
 
 
 
@@ -1884,13 +1894,16 @@ and (orientation : portrait) {
       /* padding-inline-start: 40px; */
   }
   
+  .project-block {
+    top: 80px;
+  }
 
   .box-three {
-    height: 5400px;
+    height: 4700px;
     }
 
   .box-four {
-    height: 15180px;
+    height: 6750px;
     }
 
    html {
