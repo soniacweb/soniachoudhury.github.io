@@ -1364,6 +1364,10 @@ h2.black-title {
  font-size: 50px;
 }
 
+#currently {
+  display:block;
+}
+
 div.right-about-wrapper {
   display: none;
 }
@@ -1636,7 +1640,56 @@ and (max-device-width : 667px) {
 
 } */
 
+
+/* currently */
+
+section#currently {
+  position: relative;
+  /* display: block; */
+  padding: 30px 0;
+  top: 60px;
+}
+
+.p-currently {
+margin-top: 0;
+margin-bottom: 1rem;
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+}
+
+/* p .p-currently:hover {
+background-color: grey;
+} */
+
+.container-fluid {
+display: none;
+/* position: absolute;
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 60px; */
+} 
+
+#currently-title {
+  display: none;
+
+}
+
+.me-titles {
+font-weight: bold;
+margin: 30px 0 20px 0;
+}
+
+.currently-footer {
+margin: auto;
+display: block;
+
+}
+
 /* iphones */
+
 
 @media screen and (max-width: 600px) {
   .topnav a { 
@@ -1738,8 +1791,13 @@ and (max-device-width : 667px) {
 }
 }
 
+
+
 /* iphone 5 landscape - this affects my iphone x box four*/
 @media screen and (max-width : 568px) {
+  section#currently {
+    display: block;
+  }
 
   .box-four {
     height: 17850px;
@@ -1822,10 +1880,7 @@ and (orientation : portrait) {
     margin-top: 0px;
   }
   
-  /* .right-about-wrapper {
-    padding: 0px;
-  } */
-  
+ 
   img.dg-logo {
     width: 90px;
   }
@@ -1903,23 +1958,16 @@ and (orientation : portrait) {
   }
 
   .box-three {
-    height: 4700px;
+    height: 5300px;
     }
 
   .box-four {
-    height: 6750px;
+    height: 4950px;
     }
 
    html {
     overflow-x: hidden;
     }
-
-    /* .course-image-left {
-    max-width: 100px;
-    }
-    .course-image-right {
-      max-width: 100px;
-    } */
 
     }
 
@@ -1961,75 +2009,36 @@ and (orientation : portrait) {
     }
 
 
-
-/* currently */
-
-  section#currently {
-    position: relative;
-    /* display: block; */
-    padding: 30px 0;
-    top: 60px;
 }
 
-.p-currently {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
-p .p-currently:hover {
-background-color: grey;
-}
-
-.container-fluid {
-  position: absolute;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-top: 60px;
-}
-
-.me-titles {
-  font-weight: bold;
-  margin: 30px 0 20px 0;
-}
-
-.currently-footer {
-margin: auto;
-display: block;
-
-}
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 .container-fluid {
     max-width: 80%;
 }
-}
+} */
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 .col-md-4 {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
 }
-} 
+}  */
 
-  .me-titles {
+  /* .me-titles {
     font-size: 30px;
-  }
+  } */
 
-  #studies-section {
+  /* #studies-section {
     background-color:#c1eee4;
     width: 100%;
-}
+} */
 
-#currently {
+/* #currently {
   padding: 3rem 1.5rem;
   display: block;
   text-align: justify;
-}
+} */
 
 /* studies section  */
 
