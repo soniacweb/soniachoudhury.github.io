@@ -1,5 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro'); */
 
+
 html {
   max-width: 100%;
   /* font-family: 'Long Cang', cursive; */
@@ -905,16 +906,15 @@ button {
 
 .contact-p {
   color: black;
-
 }
 
 
-.contacts-container a {
+/* .contacts-container a {
   text-decoration: none;
   color: black;
   padding: 10px;
-  margin: 30px 0px;
-}
+  margin-top: 80px;
+} */
 
 img.img-icons {
   position: relative;
@@ -1428,14 +1428,14 @@ div.right-about-wrapper {
   text-decoration: none;
   color: black;
   padding: 10px;
-  margin: 20px 0px;
+  margin: 10px 0px;
   font-size: 15px;
 }
 
 img.img-icons {
   position: relative;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
 }
 
 /* .contacts-full-wrapper {
