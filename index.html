@@ -14,13 +14,13 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   
     <!-- /Favicon -->
-   
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="style.css">
+
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
     <!-- fonts -->
@@ -143,18 +143,18 @@
             <h2 class="random-stuff-title">//random stuff i like.</h2>
           </div>
           <div class="item" data-aos="fade-up">
-            <h3><a href="https://soniadesigninspo.tumblr.com/" target="_blank">tumblr<wired-icon-button><i class="fas fa-arrow-right"></i></a></h3>
+            <h3 id="stuff1"><a href="https://soniadesigninspo.tumblr.com/" target="_blank">tumblr<wired-icon-button><i class="fas fa-arrow-right"></i></a></h3>
           </div>
           </wired-icon-button>
 
             <div class="item" data-aos="fade-up">
-            <h3><a href="https://www.therecreationalist.com/" target="_blank">therecreationalist<wired-icon-button><i class="fas fa-arrow-right"></i></a></h3>
+            <h3 id="stuff2"><a href="https://www.therecreationalist.com/" target="_blank">therecreationalist<wired-icon-button><i class="fas fa-arrow-right"></i></a></h3>
             <!-- <p><a href="https://www.therecreationalist.com/" target="_blank">therecreationalist <i class="fas fa-angle-double-right"></i></a></p> -->
             </div>
           </wired-icon-button>
 
           <div class="item" data-aos="fade-up">
-            <h3><a href="https://illustrated.dev/" target="_blank">illustrated.dev<wired-icon-button><i class="fas fa-arrow-right"></i></a></h3>
+            <h3 id="stuff3"><a href="https://illustrated.dev/" target="_blank">illustrated.dev<wired-icon-button><i class="fas fa-arrow-right"></i></a></h3>
           </div>
           </wired-icon-button>
 
@@ -171,7 +171,8 @@
       <div class="item" data-aos="fade-up">
      
       <h3>junior web developer | london</h3>
-      <div>
+      
+      <div id="paragraphs">
        
       <p class="about">Hello World!
         I’ve spent the last 6 years working in the tech industry as a talent scout and began teaching myself how to code. 
@@ -705,7 +706,7 @@
           
         <div class="experience-work-wrapper">
           
-          <div class="timeline">
+          <div id="timeline">
 
             <div class="timelineContainer left">
               <div class="content" data-sr-id="21" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
@@ -731,7 +732,7 @@
                 </div>
                 <div data-aos="fade-up-left">
                   <wired-card elevation="3">
-                <p>Some of my favourate modules include International Relations, <mark>Modern Warfare, Colonialism,</mark> South Asian Politics, and the psychologically motivating <mark>Voting Behaviour.</mark> The course demanded thoughtful, written analytical essays and allowed me to build on my public speaking and written communication skills. I also developed practical skills such as <mark>critical thinking,<mark> evaluation, and <mark>creative problem solving.<mark> </p>
+                <p id="paragraphs">Some of my favourate modules include International Relations, <mark>Modern Warfare, Colonialism,</mark> South Asian Politics, and the psychologically motivating <mark>Voting Behaviour.</mark> The course demanded thoughtful, written analytical essays and allowed me to build on my public speaking and written communication skills. I also developed practical skills such as <mark>critical thinking,<mark> evaluation, and <mark>creative problem solving.<mark> </p>
               </div>
             </div>
           </wired-card>
@@ -752,7 +753,7 @@
                 </div>
                 <div data-aos="fade-up-right">
                 <wired-card elevation="3">
-                <p>Temped briefly at Amazon UK within in their finance department freshly having gratuated before starting at Capita. I <mark>account managed</mark> the resourcing for GDS, Cabinet Office, DfT, Oxfam and the Research Councils.
+                <p id="paragraphs">Temped briefly at Amazon UK within in their finance department freshly having gratuated before starting at Capita. I <mark>account managed</mark> the resourcing for GDS, Cabinet Office, DfT, Oxfam and the Research Councils.
                   The overall objective was to implement the  <mark>technology platform, </mark> promote, deliver and develop a successful Contingent Labour Framework across Government Clients, ensuring all Service Level Agreements, Business Plan, and external financial targets.</p>
                 </wired-card>
                 </div>
@@ -773,12 +774,12 @@
               <!-- </wired-card> -->
                 <div data-aos="fade-up-left">
                  <wired-card elevation="3">
-                <p> @ DG: Responsibilities included <mark>client and account management, relationship building,</mark> developing search strategies to identify target companies and appropriate resources for each assignments</p> 
+                <p id="paragraphs"> @ DG: Responsibilities included <mark>client and account management, relationship building,</mark> developing search strategies to identify target companies and appropriate resources for each assignments</p> 
                 </div>
               </wired-card>
                 <div data-aos="fade-up-left">
                   <wired-card elevation="3">
-                <p> @ DH: Accepted a 9 month contract as a Project Consultant. I <mark>oversaw recruitment campaigns for the entire business at a high level,</mark> 
+                <p id="paragraphs"> @ DH: Accepted a 9 month contract as a Project Consultant. I <mark>oversaw recruitment campaigns for the entire business at a high level,</mark> 
                   constructed business cases for stakeholders, and forecasted budgets for potential extensions and future hires. It required developing 
                   relationships quickly, and collaborating with IT, Commercial, Marketing and Finance teams to facilitate the campaigns.</p>
               </wired-card>
@@ -798,7 +799,7 @@
                 </div>
                 <div data-aos="fade-up-right">
                 <wired-card elevation="3">
-                <p>12-week intensive coding bootcamp <mark>working in teams and joint projects, including standups.</mark> The experience helped me to gain proficiency with the latest <mark>cutting edge</mark> full stack technologies and frameworks.</p>
+                <p id="paragraphs">12-week intensive coding bootcamp <mark>working in teams and joint projects, including standups.</mark> The experience helped me to gain proficiency with the latest <mark>cutting edge</mark> full stack technologies and frameworks.</p>
                 </wired-card>
               </div>
             </div>
@@ -817,14 +818,14 @@
                 </div>
                 <div data-aos="fade-up-left">
                 <wired-card elevation="3">
-                  <p>Currently interested in building projects using the MERN stack and supporting organisations like <mark><a href="https://codefirstgirls.org.uk">Code First Girls</mark></a> and <mark><a href="https://codeyourfuture.io/">Code Your Future</a></mark>  as a Teaching Assistant in lockdown- I'm really enjoying my involvement! I'm also seeking opportunities to work as a Junior Full Stack Developer where I can apply my new skills in web development, and join a creative, innovative earth-conscious company who share my values on <mark>transparency,</mark> consistency and <mark>compassion</mark> for the wider society.</strong></p>
+                  <p id="paragraphs">Currently interested in building projects using the MERN stack and supporting organisations like <mark><a href="https://codefirstgirls.org.uk">Code First Girls</mark></a> and <mark><a href="https://codeyourfuture.io/">Code Your Future</a></mark>  as a Teaching Assistant in lockdown- I'm really enjoying my involvement! I'm also seeking opportunities to work as a Junior Full Stack Developer where I can apply my new skills in web development, and join a creative, innovative earth-conscious company who share my values on <mark>transparency,</mark> consistency and <mark>compassion</mark> for the wider society.</strong></p>
               </wired-card>  
               </div>
 
                 <div data-aos="fade-up-left"> 
                  <!-- <wired-button elevation="3">  -->
-                  <a href="#contact"><h3>//Get in touch <wired-icon-button><i class="fas fa-arrow-right"></i>
-                  </h3></a></wired-icon-button>
+                  <a href="#contact"><h5>//Get in touch <wired-icon-button><i class="fas fa-arrow-right"></i>
+                  </h5></a></wired-icon-button>
                 </div>
               </div>
             </div>

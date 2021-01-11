@@ -10,6 +10,7 @@ html {
 
 }
    
+
 body {
   max-width: 100%;
   margin: 0;
@@ -266,11 +267,15 @@ to{border-right-color: transparent;}
 
 /* About Section */
 
-.about {
-  font-size: 17px;
-  font-weight: bold;
-
+#paragraphs {
+  font-size: 15px;
+  /* font-weight: bold; */
 }
+
+#stuff1, #stuff2, #stuff3 {
+  font-size: 20px;
+}
+
 
 .my-photo {
   margin-top: 30px;
@@ -475,14 +480,14 @@ img.fcc-logo {
   }
 
 
-.timeline {
+#timeline {
 width: 78%;
 position: relative;
 max-width: 1200px;
 margin: 0 auto;
 }
 
-.timeline::after {
+#timeline::after {
   content: '';
   position: absolute;
   width: 6px;
@@ -606,8 +611,9 @@ wired-link {
 h2.white-title {
   margin-top: 20px;
 }
+
 .box-three {
-  height: 4000px;
+  height: 3150px;
   background-color: white;
   overflow: hidden;
   /* border-left: 50px solid #c1eee4;
@@ -1109,9 +1115,10 @@ div.left-about-wrapper {
 
 
 
-  div.timeline {
-    width: 700px;
+  div#timeline {
+    width: 900px;
   }
+
   .skill-outline-box {
     margin-top: 90px;
     /* margin-right: 30px;
@@ -1151,7 +1158,7 @@ opacity: 100%;
 
 /* ends  */
 
-}
+
 
 /* software container */
 
@@ -1544,7 +1551,7 @@ and (orientation : portrait) {
 
   
 
-  div.timeline {
+  div#timeline {
     width: 700px;
   }
   .skill-outline-box {
@@ -1757,7 +1764,7 @@ display: block;
   }
 
   /* Place the timelime to the left */
-  .timeline::after {
+  #timeline::after {
     left: 20px;
   }
 
@@ -1958,7 +1965,7 @@ and (orientation : portrait) {
   }
 
   .box-three {
-    height: 5300px;
+    height: 4700px;
     }
 
   .box-four {
