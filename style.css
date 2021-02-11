@@ -912,7 +912,10 @@ button {
 
 .contact-p {
   color: black;
+  
 }
+
+
 
 
 /* .contacts-container a {
@@ -922,8 +925,12 @@ button {
   margin-top: 80px;
 } */
 
+/* .contactinfo {
+position: relative;
+} */
+
 img.img-icons {
-  position: relative;
+  /* position: absolute; */
   width: 40px;
   height: 40px;
   top: 10px;
@@ -1596,6 +1603,8 @@ width: 30px;
 
   .black-title {
     font-size: 55px;
+    margin: 0 auto;
+     
   }
 
   .box-three {
