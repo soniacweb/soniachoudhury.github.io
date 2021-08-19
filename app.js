@@ -83,46 +83,5 @@ $( document ).ready(function() {
   }
 
 
-  // image slides
-
-  // var myIndex = 0
-  // carousel()
-
-  // function carousel() {
-  //   var i
-  //   var x = document.getElementsByClassName('mySlides')
-  //   for (i = 0; i < x.length; i++) {
-  //     x[i].style.display = 'none'  
-  //   }
-  //   myIndex++
-  //   if (myIndex > x.length) {
-  //     myIndex = 1
-  //   }    
-  //   x[myIndex - 1].style.display = 'block'  
-  //   setTimeout(carousel, 2000) // Change image every 2 seconds
-  // }
- 
-  
-
-  // project button animation
-
-  // var $button = $('#myButton'),
-  //   $text   = $('#myText'),
-  //   visible = true
-
-  // $button.click(function(){
-  //   if ( visible ) {
-  //     $text.slideUp('fast',function(){
-  //       $text.addClass('hide')
-  //         .slideDown(0)
-  //     })
-  //   } else {
-  //     $text.slideUp(0,function(){
-  //       $text.removeClass('hide')
-  //         .slideDown('fast')
-  //     })
-  //   }
-  //   visible = ! visible
-  // })
 
 })

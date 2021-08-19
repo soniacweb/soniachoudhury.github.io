@@ -1,5 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro'); */
 
+/* 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  */
+
 
 html {
   max-width: 100%;
@@ -698,7 +700,7 @@ h2.white-title {
 /* BOX Four - Projects----- */
 
 .box-four {
-  height: 3900px;
+  height: 2900px;
   width: 101%;
   background-color: white;
   overflow: hidden;
@@ -729,7 +731,7 @@ div.links {
 
 
 .project-screen {
-  background-image: url(https://i.imgur.com/Ee3cSeZ.png);
+  /* background-image: url(https://i.imgur.com/Ee3cSeZ.png); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
